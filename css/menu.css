@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #D96AA7;
+    --primary-color-en: #BF5E93;
+    --primary-color-es: #994B76;
+
+    --complimentary-color: #88BFB5;
+    --secondary-color: #422C73;
+    --light-color: #D2A9D9;
+}
+
+section {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 0;
+    opacity: 0;
+    transition: all ease-in .5s;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+} 
+
+section h1 {
+    color: #fff;
+    font-size: 50px;
+    opacity: 0;
+
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0.5%;
+}
+
+/* Styles applied on trigger */
+section:target {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+section:target h1 {
+    opacity: 0;
+    animation: 2s fadeIn forwards .5s;
+}
+
+#carreira,
+#carreira-es {
+  background: var(--primary-color);
+}
+
+#carreira-en {
+    background: var(--primary-color-en);
+}
+
+#carreira-es {
+    background: var(--primary-color-es);
+}
+
+#projetos {
+    background: var(--complimentary-color);
+}
+
+#competencias {
+    background: var(--secondary-color);
+}
+
+#contatos {
+    background: var(--light-color);
+}
+
+@keyframes fadeIn {
+    100% { opacity:1 }
+}
+
+.close::after {
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #BF2E97;
+    color: #fff;
+    content: "×";
+    cursor: pointer;
+    opacity: 0; 
+    animation: 2s fadeIn forwards .5s;
+}

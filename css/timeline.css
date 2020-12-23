@@ -7,14 +7,12 @@ p {
     border-width: 3px;
     margin: 0;
     padding: 10px 30px;
-    counter-increment: section;
     position: relative;
     color: #34435e;
     text-align: justify;
 }
 
 p:before {
-    content: counter(section);
     position: absolute;
     border-radius: 50%;
     padding: 10px;
@@ -27,9 +25,17 @@ p:before {
     font-size: 1em;
 }
 
+p.estudos::before {
+    content: "👩‍🎓";
+}
+
+p.trabalho::before {
+    content: "👩‍💻";
+}
+
 p:nth-child(odd) {
     border-right: 3px solid;
-    padding-left: 0;
+    /*padding-left: 0;*/
 }
 
 p:nth-child(odd):before {
@@ -39,7 +45,7 @@ p:nth-child(odd):before {
 
 p:nth-child(even) {
     border-left: 3px solid;
-    padding-right: 0;
+    /*padding-right: 0;*/
 }
 
 p:nth-child(even):before {
@@ -66,7 +72,8 @@ p:last-child {
     font-family: 'Source Sans Pro', sans-serif;
 
     overflow-x: initial;
-    overflow-y: scroll;
+    overflow-y: auto;
+    padding: 25px;
 }
 
 span {
@@ -81,7 +88,7 @@ span.subtitulo {
     font-weight: normal;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 i {

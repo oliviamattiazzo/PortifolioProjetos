@@ -18,7 +18,7 @@ h1 {
 .nome-cargo {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    margin: 35vh 35vh 35vh 28vh;
+    margin: 35vh 35vh 35vh 30vh;
 }
 
 .nome-header {
@@ -38,7 +38,7 @@ h1 {
 .container-menu {
     position: fixed;
     margin-top: -15%;
-    margin-left: 9%;
+    margin-left: 10%;
     width: 100%;
 }
 

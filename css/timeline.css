@@ -67,7 +67,7 @@ p:last-child {
 .conteudo {
     max-width: 90%;
     max-height: 80%;
-    margin-top: 6%;
+    margin-left: -36%;
     position: fixed;
     font-family: 'Source Sans Pro', sans-serif;
 
@@ -97,4 +97,25 @@ i {
 
 .container {
     max-width: 90%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #BF2E97; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #A62882; 
 }

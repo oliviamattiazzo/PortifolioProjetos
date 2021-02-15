@@ -2,7 +2,6 @@
     --primary-color: #D96AA7;
     --primary-color-en: #BF5E93;
     --primary-color-es: #994B76;
-
     --complimentary-color: #88BFB5;
     --secondary-color: #422C73;
     --light-color: #D2A9D9;
@@ -15,21 +14,21 @@ section {
     width: 0;
     opacity: 0;
     transition: all ease-in .5s;
-    display: flex;
-    justify-content: center;
     color: #fff;
-} 
+}
 
 section h1 {
     color: #fff;
     font-size: 50px;
     opacity: 0;
-
-    font-family: 'Roboto Mono', monospace;
     margin-top: 0.5%;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
 }
 
+
 /* Styles applied on trigger */
+
 section:target {
     opacity: 1;
     position: absolute;
@@ -44,25 +43,26 @@ section:target h1 {
     animation: 2s fadeIn forwards .5s;
 }
 
+#sobre,
+#sobre-es,
+#sobre-en {
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
 #carreira,
-#carreira-es {
-  background: var(--primary-color);
-}
-
+#carreira-es,
 #carreira-en {
-    background: var(--primary-color-en);
-}
-
-#carreira-es {
-    background: var(--primary-color-es);
+    background: linear-gradient(to right, #f12711, #f5af19);
 }
 
 #projetos {
     background: var(--complimentary-color);
 }
 
-#competencias {
-    background: var(--secondary-color);
+#competencias,
+#competencias-es,
+#competencias-en {
+    background: linear-gradient(to right, #000000, #0f9b0f);
 }
 
 #contatos {
@@ -70,7 +70,9 @@ section:target h1 {
 }
 
 @keyframes fadeIn {
-    100% { opacity:1 }
+    100% {
+        opacity: 1
+    }
 }
 
 .close::after {
@@ -84,10 +86,9 @@ section:target h1 {
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    background-color: #BF2E97;
     color: #fff;
     content: "×";
     cursor: pointer;
-    opacity: 0; 
+    opacity: 0;
     animation: 2s fadeIn forwards .5s;
 }

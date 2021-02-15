@@ -1,115 +1,208 @@
 <html>
-    <head lang="pt">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifolio - Olivia Mattiazzo</title>
-        <link rel="stylesheet" type="text/css" href="css/general.css" />
-        <link rel="stylesheet" type="text/css" href="css/animation.css" />
-        <link rel="stylesheet" type="text/css" href="css/menu.css" />
-        <link rel="stylesheet" type="text/css" href="css/timeline.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Mono&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-        <link rel="shortcut icon" href="img/icon_rocket.png" >
-        <script src="https://kit.fontawesome.com/293847d6a2.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="container-menu carreira-projetos">
-                <figure>
-                    <a href="#carreira" onclick="carreiraController.carreira()">
-                        <img src="img/icon_saturno.png" alt="Carreira" class="icone-planeta icone-esquerda icon-saturno" />
-                    </a>
-                </figure>
-                <figure>
-                    <a href="#projetos">
-                        <img src="img/icon_jupiter.png" alt="Projetos" class="icone-planeta icone-direita">
-                    </a>
-                </figure>
-            </div>
-            <div class="nome-cargo">
-                <h1 class="nome-header">Olivia Mattiazzo</h1>
-                <div class="simula-textbox"><h2 class="typing-animation line">.NET Developer</h2></div>
-            </div>
-            <div class="container-menu competencias-contatos">
-                <figure>
-                    <a href="#competencias">
-                        <img src="img/icon_lua.png" alt="Outras competências" class="icone-planeta icone-esquerda">
-                    </a>
-                </figure>
-                <figure>
-                    <a href="#contatos">
-                        <img src="img/icon_earth.png" alt="Contatos" class="icone-planeta icone-direita">
-                    </a>
-                </figure>
-            </div>
-        </header>
 
-        <div class="container"> 
-            <section id="carreira">
-                <a href="#" class="close"></a>
-                <div id="carreiraView"></div>
-                <div class="idioms">
-                    <a href="#carreira" onclick="carreiraController.carreira()"><i class="em em-flag-br" aria-role="presentation" aria-label="Brazil Flag"></i></a> -
-                    <a href="#carreira-en" onclick="carreiraController.career()"><i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
-                    <a href="#carreira-es"  onclick="carreiraController.carrera()"><i class="em em-es" aria-role="presentation" aria-label="Spain Flag"></i></a>
-                </div>
-            </section>
-            <section id="carreira-en">
-                <a href="#" class="close"></a>
-                <div id="carreiraViewEn"></div>
-                <div class="idioms">
-                    <a href="#carreira" onclick="carreiraController.carreira()"><i class="em em-flag-br" aria-role="presentation" aria-label="Brazil Flag"></i></a> -
-                    <a href="#carreira-en" onclick="carreiraController.career()"><i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
-                    <a href="#carreira-es"  onclick="carreiraController.carrera()"><i class="em em-es" aria-role="presentation" aria-label="Spain Flag"></i></a>
-                </div>
-            </section>
-            <section id="carreira-es">
-                <a href="#" class="close"></a>
-                <div id="carreiraViewEs"></div>
-                <div class="idioms">
-                    <a href="#carreira" onclick="carreiraController.carreira()"><i class="em em-flag-br" aria-role="presentation" aria-label="Brazil Flag"></i></a> -
-                    <a href="#carreira-en" onclick="carreiraController.career()"><i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
-                    <a href="#carreira-es"  onclick="carreiraController.carrera()"><i class="em em-es" aria-role="presentation" aria-label="Spain Flag"></i></a>
-                </div>
-            </section>
+<head lang="pt">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio - Olivia Mattiazzo</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css" />
+    <link rel="stylesheet" type="text/css" href="css/secoes_site.css" />
+    <link rel="stylesheet" type="text/css" href="css/scrollbars.css" />
+    <link rel="stylesheet" type="text/css" href="css/tooltip.css" />
+    <link rel="stylesheet" type="text/css" href="css/timeline.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/fponticelli/dicefont/fc6b8c47/dist/dicefont/dicefont.css">
+    <link rel="shortcut icon" href="img/icon_d8.png">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+</head>
 
-            <section id="projetos">
-                <a href="#" class="close"></a>
-                <h1>Projetos</h1>
-                <div class="idioms">
-                    <i class="em em-flag-br" aria-role="presentation" aria-label="Brazil Flag"></i> -
-                    <i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i> -
-                    <i class="em em-es" aria-role="presentation" aria-label="Spain Flag"></i>
-                </div>
-            </section>
-            <section id="competencias">
-                <a href="#" class="close"></a>
-                <h1>Outras competências</h1>
-                <div class="idioms">
-                    <i class="em em-flag-br" aria-role="presentation" aria-label="Brazil Flag"></i> -
-                    <i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i> -
-                    <i class="em em-es" aria-role="presentation" aria-label="Spain Flag"></i>
-                </div>
-            </section>
-            <section id="contatos">
-                <a href="#" class="close"></a>
-                <h1>Contatos</h1>
-                <div class="idioms">
-                    <i class="em em-flag-br" aria-role="presentation" aria-label="Brazil Flag"></i> -
-                    <i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i> -
-                    <i class="em em-es" aria-role="presentation" aria-label="Spain Flag"></i>
-                </div>
-            </section>
+<body>
+    <header>
+        <h1 class="nome-header">Olivia Mattiazzo</h1>
+
+        <div class="raca-classe">
+            <figure>
+                <img src="img/icon_header.png" alt="" class="topo-tabela">
+            </figure>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="coluna-esquerda">Desenvolvedora</td>
+                        <td>.NET | Javascript | SQL</td>
+                    </tr>
+                    <tr class="fim-primeira-linha">
+                        <td class="rotulo">CLASSE</td>
+                        <td class="rotulo">BACKGROUND</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-esquerda">Humana</td>
+                        <td>Web | Backend</td>
+                    </tr>
+                    <tr>
+                        <td class="rotulo">RAÇA</td>
+                        <td class="rotulo">ALINHAMENTO</td>
+                    </tr>
+                </tbody>
+            </table>
+            <figure>
+                <img src="img/icon_header_bottom.png" alt="" class="rodape-tabela">
+            </figure>
         </div>
 
-        <script src="js/controllers/CarreiraController.js"></script>
-        <script src="js/repositories/pt-br.js"></script>
-        <script src="js/repositories/en.js"></script>
-        <script src="js/views/View.js"></script>
-        <script src="js/views/CarreiraView.js"></script>
-        <script>
-            let carreiraController = new CarreiraController();
-        </script>
-    </body>
+        <div class="container-menu">
+            <div class="item-menu"><a href="#sobre" onclick="sobreController.sobre()"><i class="df-d20-20"></i>
+                <p>SOBRE</p>
+            </a></div>
+            <div class="item-menu"><a href="#carreira" onclick="carreiraController.carreira()"><i class="df-d12-12"></i>
+                <p>CARREIRA</p>
+            </a></div>
+            <div class="item-menu"><i class="df-d10-10"></i>
+                <p>PROJETOS</p>
+            </div>
+            <div class="item-menu"><a href="#competencias" onclick="carreiraController.carreira()"><i class="df-d8-8"></i>
+                <p>COMPETÊNCIAS</p>
+            </a></div>
+            <div class="item-menu"><i class="df-d4-4"></i>
+                <p>CONTATO</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="sobre">
+            <a href="#" class="close"></a>
+            <div id="sobreView"></div>
+            <div class="idioms">
+                <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
+                        aria-label="Brazil Flag"></i></a> -
+                <a href="#sobre-en" onclick="sobreController.about()"><i class="em em-gb" aria-role="presentation"
+                        aria-label="United Kingdom Flag"></i></a> -
+                <a href="#sobre-es" onclick="sobreController.sobreEs()"><i class="em em-es" aria-role="presentation"
+                        aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+        <section id="sobre-en">
+            <a href="#" class="close"></a>
+            <div id="sobreViewEn"></div>
+            <div class="idioms">
+                <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
+                        aria-label="Brazil Flag"></i></a> -
+                <a href="#sobre-en" onclick="sobreController.about()"><i class="em em-gb" aria-role="presentation"
+                        aria-label="United Kingdom Flag"></i></a> -
+                <a href="#sobre-es" onclick="sobreController.sobreEs()"><i class="em em-es" aria-role="presentation"
+                        aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+        <section id="sobre-es">
+            <a href="#" class="close"></a>
+            <div id="sobreViewEs"></div>
+            <div class="idioms">
+                <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
+                        aria-label="Brazil Flag"></i></a> -
+                <a href="#sobre-en" onclick="sobreController.about()"><i class="em em-gb" aria-role="presentation"
+                        aria-label="United Kingdom Flag"></i></a> -
+                <a href="#sobre-es" onclick="sobreController.sobreEs()"><i class="em em-es" aria-role="presentation"
+                        aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+
+        <section id="carreira">
+            <a href="#" class="close"></a>
+            <div id="carreiraView"></div>
+            <div class="idioms">
+                <a href="#carreira" onclick="carreiraController.carreira()"><i class="em em-flag-br"
+                        aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                <a href="#carreira-en" onclick="carreiraController.career()"><i class="em em-gb"
+                        aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                <a href="#carreira-es" onclick="carreiraController.carrera()"><i class="em em-es"
+                        aria-role="presentation" aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+        <section id="carreira-en">
+            <a href="#" class="close"></a>
+            <div id="carreiraViewEn"></div>
+            <div class="idioms">
+                <a href="#carreira" onclick="carreiraController.carreira()"><i class="em em-flag-br"
+                        aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                <a href="#carreira-en" onclick="carreiraController.career()"><i class="em em-gb"
+                        aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                <a href="#carreira-es" onclick="carreiraController.carrera()"><i class="em em-es"
+                        aria-role="presentation" aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+        <section id="carreira-es">
+            <a href="#" class="close"></a>
+            <div id="carreiraViewEs"></div>
+            <div class="idioms">
+                <a href="#carreira" onclick="carreiraController.carreira()"><i class="em em-flag-br"
+                        aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                <a href="#carreira-en" onclick="carreiraController.career()"><i class="em em-gb"
+                        aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                <a href="#carreira-es" onclick="carreiraController.carrera()"><i class="em em-es"
+                        aria-role="presentation" aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+
+        <section id="competencias">
+            <a href="#" class="close"></a>
+            <!--<div id=""></div>-->
+            <h1>Competências</h1>
+            <div class="conteudo-competencias">
+                <div class="spellbook">
+
+                </div>
+                <div class="detalhes-magia">
+
+                </div>
+            </div>
+            <div class="idioms">
+                <a href="#competencias" onclick="competenciasController.competencias()"><i class="em em-flag-br"
+                        aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                <a href="#competencias-en" onclick="competenciasController.skills()"><i class="em em-gb"
+                        aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                <a href="#competencias-es" onclick="competenciasController.habilidades()"><i class="em em-es"
+                        aria-role="presentation" aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+        <section id="competencias-en">
+            <a href="#" class="close"></a>
+            <!--<div id=""></div>-->
+            <div class="idioms">
+                <a href="#competencias" onclick="competenciasController.competencias()"><i class="em em-flag-br"
+                    aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                <a href="#competencias-en" onclick="competenciasController.skills()"><i class="em em-gb"
+                    aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                <a href="#competencias-es" onclick="competenciasController.habilidades()"><i class="em em-es"
+                    aria-role="presentation" aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+        <section id="competencias-es">
+            <a href="#" class="close"></a>
+            <!--<div id=""></div>-->
+            <div class="idioms">
+                <a href="#competencias" onclick="competenciasController.competencias()"><i class="em em-flag-br"
+                    aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                <a href="#competencias-en" onclick="competenciasController.skills()"><i class="em em-gb"
+                    aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                <a href="#competencias-es" onclick="competenciasController.habilidades()"><i class="em em-es"
+                    aria-role="presentation" aria-label="Spain Flag"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/effects/magicCursor.js"></script>
+    <script src="js/controllers/CarreiraController.js"></script>
+    <script src="js/controllers/SobreController.js"></script>
+    <script src="js/repositories/pt-br.js"></script>
+    <script src="js/repositories/en.js"></script>
+    <script src="js/repositories/es.js"></script>
+    <script src="js/views/View.js"></script>
+    <script src="js/views/CarreiraView.js"></script>
+    <script src="js/views/SobreView.js"></script>
+    <script>
+        let carreiraController = new CarreiraController();
+        let sobreController = new SobreController();
+    </script>
+</body>
+
 </html>

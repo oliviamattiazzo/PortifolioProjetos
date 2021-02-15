@@ -1,121 +1,55 @@
-p {
-    font-size: 1em;
-    line-height: 1.5em;
-    border-top: 3px solid;
-    border-image: linear-gradient(to right, #9d50bb, #6e48aa);
-    border-image-slice: 1;
-    border-width: 3px;
+.conteudo div {
+    width: 300px;
+    margin: auto;
+}
+
+.conteudo p {
+    border-top: 2px dashed;
+    border-color: blue !important;
     margin: 0;
-    padding: 10px 30px;
-    position: relative;
-    color: #34435e;
-    text-align: justify;
+    padding: 30px;
 }
 
-p:before {
-    position: absolute;
-    border-radius: 50%;
-    padding: 10px;
-    height: 1.25em;
-    width: 1.25em;
-    background-color: #34435e;
-    text-align: center;
-    line-height: 1.25em;
-    color: #fff;
-    font-size: 1em;
+.conteudo p:nth-child(even) {
+    border-left: 2px dashed;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px;
+    padding-right: 0;
 }
 
-p.estudos::before {
-    content: "👩‍🎓";
+.conteudo p:nth-child(odd) {
+    border-right: 2px dashed;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+    padding-left: 0;
 }
 
-p.trabalho::before {
-    content: "👩‍💻";
-}
-
-p:nth-child(odd) {
-    border-right: 3px solid;
-    /*padding-left: 0;*/
-}
-
-p:nth-child(odd):before {
-    left: 100%;
-    margin-left: -20px;
-}
-
-p:nth-child(even) {
-    border-left: 3px solid;
-    /*padding-right: 0;*/
-}
-
-p:nth-child(even):before {
-    right: 100%;
-    margin-right: -20px;
-}
-
-p:first-child {
+.conteudo p:first-child {
     border-top: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
 }
 
-p:last-child {
+.conteudo p:last-child {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.conteudo {
-    max-width: 90%;
-    max-height: 80%;
-    margin-left: -36%;
-    position: fixed;
-    font-family: 'Source Sans Pro', sans-serif;
-
-    overflow-x: initial;
-    overflow-y: auto;
-    padding: 25px;
-}
-
-span {
-    color: #fff;
-    font-weight: bold;
-    font-family: 'Roboto Mono', monospace;
-    line-height: 2em;
-}
-
-span.subtitulo {
-    line-height: 1.5em;
-    font-weight: normal;
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding-right: 15px;
-}
-
-i {
-    color: #6e48aa;
-}
-
-.container {
-    max-width: 90%;
-}
-
-/* width */
-::-webkit-scrollbar {
+.conteudo::-webkit-scrollbar {
     width: 5px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
+.conteudo::-webkit-scrollbar-track {
     border-radius: 10px;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #BF2E97; 
+.conteudo::-webkit-scrollbar-thumb {
+    background: #BF2E97;
     border-radius: 5px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #A62882; 
+.conteudo::-webkit-scrollbar-thumb:hover {
+    background: #A62882;
 }

@@ -1,0 +1,16 @@
+.foto-ptos-habilidade ul::-webkit-scrollbar {
+    width: 5px;
+}
+
+.foto-ptos-habilidade ul::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.foto-ptos-habilidade ul::-webkit-scrollbar-thumb {
+    background: #240b36;
+    border-radius: 5px;
+}
+
+.foto-ptos-habilidade ul::-webkit-scrollbar-thumb:hover {
+    background: #c31432;
+}

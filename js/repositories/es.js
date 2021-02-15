@@ -1,6 +1,6 @@
-let en = {
+let es = {
     sobre: {
-        titulo: "About",
+        titulo: "Sobre",
         conteudo: {
             lista_habilidades: {
                 titulo: "SKILLS",

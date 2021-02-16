@@ -223,6 +223,87 @@ a {
     }
 }
 
+.conteudo-competencias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.spellbook {
+    background: white;
+    color: black;
+    height: 29.5em;
+    padding: 1em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1900px) {
+    .spellbook {
+        height: 51.5em;
+    }
+}
+
+.lista-magias {
+    border: 2px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+.lista-magias ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 5px;
+}
+
+.lista-magias li img {
+    height: 15px;
+    width: 15px;
+}
+
+.titulo-categoria-magia {
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+
+.titulo-categoria-magia h3 {
+    font-size: 1em;
+    padding: 0.3em;
+    vertical-align: bottom;
+}
+
+.sigla-titulo-magia {
+    background: linear-gradient(to right, #000000, #0f9b0f);
+    border-right: 2px solid black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-right: 0.1em;
+    text-align: center;
+}
+
+.detalhes-magia {
+    background: white;
+    color: black;
+    padding: 0.5em;
+}
+
+.nome-magia {
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
+    width: 15em;
+}
+
+.nome-magia p {
+    margin: 5px;
+}
+
 .idioms {
     width: 100%;
     height: 10px;

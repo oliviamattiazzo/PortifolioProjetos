@@ -4,20 +4,20 @@ let en = {
         conteudo: {
             lista_habilidades: {
                 titulo: "SKILLS",
-                texto_tooltip: "As habilidades destacadas são as utilizadas na aventura atual",
-                dotnet: ".NET (C# e Visual Basic)",
-                bd: "Banco de dados",
+                texto_tooltip: "Highlighted skills are the ones being used in the current adventure",
+                dotnet: ".NET (C# and Visual Basic)",
+                bd: "Databases",
                 css: "CSS",
-                desenvolvimento_software: "Desenv. de software",
+                desenvolvimento_software: "Software development",
                 git: "Git",
-                ingles: "Inglês",
+                ingles: "English",
                 javascript: "Javascript",
                 jquery: "jQuery",
                 html: "HTML",
                 nunit: "NUnit",
                 os2200: "OS2200",
-                testes_automatizados: "Testes automatizados",
-                testes_carga: "Testes de carga",
+                testes_automatizados: "Automated tests",
+                testes_carga: "Load tests",
                 razor: "Razor",
                 selenium: "Selenium",
                 sql: "SQL",
@@ -25,24 +25,24 @@ let en = {
                 xml: "XML"
             },
             pontos_habilidade: {
-                titulo_idade: "IDADE",
+                titulo_idade: "AGE",
                 valor_idade: "28",
-                titulo_anos_xp: "ANOS XP",
+                titulo_anos_xp: "XP YEARS",
                 valor_anos_xp: "9",
-                titulo_idiomas: "IDIOMAS",
+                titulo_idiomas: "IDIOMS",
                 valor_idiomas: "4",
-                titulo_cursos: "CURSOS",
+                titulo_cursos: "COURSES",
                 valor_cursos: "20",
-                titulo_empresas: "EMPRESAS",
+                titulo_empresas: "COMPANIES",
                 valor_empresas: "5"
             },
             texto: {
-                paragrafo1: "Olá! Meu nome é Olivia Mattiazzo e atualmente trabalho como Consultora .NET em Oeiras, no distrito de Lisboa, Portugal.",
-                paragrafo2: "Nasci e cresci no interior de São Paulo e grande parte da minha formação acadêmica vem de lá — fiz um técnico em informática e bacharelado em Sistemas de Informação, tudo pela Unesp de Bauru. Também tive a oportunidade de realizar o sonho do intercâmbio, através do programa Ciência Sem Fronteiras, na Trinity College, em Dublin. Fiz um ano letivo completo lá e três meses de estágio. Na época, era uma das 100 melhores universidades do mundo!",
-                paragrafo3: "Desde o início da minha graduação até agora, tive a oportunidade de estagiar e trabalhar com desenvolvimento. A maior parte da minha carreira se deu desenvolvendo sistemas governamentais — com clientes como a FDE (SP – BR), o BRDE (RS – BR) e a Segurança Social de Portugal.",
-                paragrafo4: "Eu sou apaixonada por tecnologias Microsoft, especialmente o C#, e estudo e pratico muito porque gostaria de me tornar uma referência em relação à isso. Também tenho uma grande preferência e facilidade com o backend — eu também gosto de front, mas não sou tão boa. Prefiro encará-lo quase como um artesanato do que ter que trabalhar exclusivamente com ele!",
-                paragrafo5: "Fora do mundo do desenvolvimento, gosto muito de estudar idiomas — além do meu português brasileiro fluente (e português de Portugal avançado 😂), tenho inglês fluente, algumas noções de alemão e atualmente faço aulas de espanhol, e já estou no nível intermediário.",
-                paragrafo6: "No meu tempo livre, você também pode me encontrar montando fichas de RPG e escrevendo backgrounds para personagens, assistindo séries, jogando videogame (Overwatch ❤) ou planejando minha próxima viagem e/ou show! Gosto muito de explorar: lugares, comidas, culturas, conceitos e sentimentos. Seguimos com a cabeça sempre aberta e o coração muito cheio!"
+                paragrafo1: "Hi there! My name is Olivia Mattiazzo and I'm currently working as a .NET Consultant, based in Oeiras, Lisbon district, Portugal.",
+                paragrafo2: "I was born and raised in the countryside of São Paulo state, in Brazil, and most of my academic formation comes from there - I'm a Computer Technician and also have a Bachelor degree in Information Systems, all by the Unesp located in Bauru. I also had the opportunity to make one of my dreams come true: studying abroad through the Science Without Borders program, at the Trinity College, in Dublin. I studied there for an academic year and also accomplished a three month internship. At the time, it was one of the top 100 universities of the world!",
+                paragrafo3: "Since the beginning of my course in college until now, I had the opportunity to be an intern and also work profissionally with software development. The most part of my career was developing governmental systems - with clients as FDE (SP - BR), BRDE (RS - BR) and Portugal's Social Security.",
+                paragrafo4: "I'm passionate about Microsoft technologies, especially C#, and I've been studying and practicing a lot because I really would like to become a reference about it. I consider myself a backend developer because it's easier for me and it's what I prefer to work with. I also like frontend, but I'm not so good at it. I rather see it as a hobby than having to work exclusively with it! ",
+                paragrafo5: "Out of the software development bubble, I really like to study idioms — besides my brazilian Portuguese fluent, I'm fluent at English, I have some notions of German and I'm currently having Spanish classes, and I'm already in the intermediate level.",
+                paragrafo6: "In my free time, you can find me creating characters and backgrounds for RPG games, watching TV shows, playing videogame (Overwatch ❤) or planning my next trip and/or concert! I really like to explore: places, foods, cultures, concepts and feelings. We keep on going with the head always open and the heart very full!"
             }
         }
     },

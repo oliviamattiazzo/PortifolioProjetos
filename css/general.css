@@ -225,7 +225,7 @@ a {
 
 .conteudo-competencias {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -252,7 +252,7 @@ a {
     border-top-left-radius: 5px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 5px;
-    width: 30%;
+    margin-right: 10px;
 }
 
 .lista-magias ul {
@@ -261,9 +261,8 @@ a {
     margin: 5px;
 }
 
-.lista-magias li img {
-    height: 15px;
-    width: 15px;
+.lista-magias li i:hover {
+    color: #0f9b0f;
 }
 
 .titulo-categoria-magia {

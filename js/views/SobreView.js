@@ -46,7 +46,7 @@ class SobreView extends View {
                         </div>
                         <div class="pto-habilidade-cursos">
                             <p class="titulo-pto-habilidade">${idioma.sobre.conteudo.pontos_habilidade.titulo_cursos}</p>
-                            <p class="valor-pto-habilidade">${idioma.sobre.conteudo.pontos_habilidade.valor_idiomas}</p>
+                            <p class="valor-pto-habilidade">${idioma.sobre.conteudo.pontos_habilidade.valor_cursos}</p>
                         </div>
                         <div class="pto-habilidade-empresas">
                             <p class="titulo-pto-habilidade">${idioma.sobre.conteudo.pontos_habilidade.titulo_empresas}</p>

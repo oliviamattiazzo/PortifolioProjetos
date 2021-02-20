@@ -10,4 +10,8 @@ class View {
     update(idioma) {
         this._elemento.innerHTML = this.template(idioma);
     }
+
+    limpar() {
+        this._elemento.innerHTML = "";
+    }
 }

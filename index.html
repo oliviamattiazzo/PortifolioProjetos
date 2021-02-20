@@ -71,7 +71,7 @@
 
     <div class="container">
         <section id="sobre">
-            <a href="#" class="close"></a>
+            <a href="#" class="close" onclick="sobreController.fechar()"></a>
             <div id="sobreView"></div>
             <div class="idioms">
                 <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
@@ -83,7 +83,7 @@
             </div>
         </section>
         <section id="sobre-en">
-            <a href="#" class="close"></a>
+            <a href="#" class="close" onclick="sobreController.fechar()"></a>
             <div id="sobreViewEn"></div>
             <div class="idioms">
                 <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
@@ -95,7 +95,7 @@
             </div>
         </section>
         <section id="sobre-es">
-            <a href="#" class="close"></a>
+            <a href="#" class="close" onclick="sobreController.fechar()"></a>
             <div id="sobreViewEs"></div>
             <div class="idioms">
                 <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
@@ -322,9 +322,10 @@
         </section>
     </div>
 
-    <script src="js/effects/magicCursor.js"></script>
-    <script src="js/controllers/CarreiraController.js"></script>
+    <script src="js/effects/MagicCursor.js"></script>
+    <script src="js/effects/FecharSections.js"></script>
     <script src="js/controllers/SobreController.js"></script>
+    <script src="js/controllers/CarreiraController.js"></script>
     <script src="js/repositories/pt-br.js"></script>
     <script src="js/repositories/en.js"></script>
     <script src="js/repositories/es.js"></script>

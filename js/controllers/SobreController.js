@@ -18,4 +18,11 @@ class SobreController {
     sobreEs() {
         this._sobreViewEs.update(es);
     }
+
+    fechar() {
+        FecharSections.fechar(this._sobreView, this._sobreViewEn, this._sobreViewEs);
+        // this._sobreView.limpar();
+        // this._sobreViewEn.limpar();
+        // this._sobreViewEs.limpar();
+    }
 }

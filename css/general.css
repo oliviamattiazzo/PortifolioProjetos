@@ -233,7 +233,7 @@ a {
     background: white;
     color: black;
     height: 29.5em;
-    padding: 1em;
+    padding: 0.5em;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -288,19 +288,78 @@ a {
 }
 
 .detalhes-magia {
-    background: white;
     color: black;
-    padding: 0.5em;
 }
 
 .nome-magia {
     border: 2px solid black;
+    box-shadow: 5px 10px 18px #888888;
     font-family: 'Lato', sans-serif;
     width: 15em;
 }
 
 .nome-magia p {
     margin: 5px;
+}
+
+.cabecalho-magia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bandeiras {
+    margin-left: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge {
+    border: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+    font-size: 1.5em;
+    margin-top: -0.9em;
+    text-align: center;
+    width: 1.6em;
+}
+
+.badge i {
+    padding: 5px;
+    margin-top: 0.3em;
+}
+
+.conteudo-magia {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+
+.texto-magia {
+    margin-right: 10px;
+    width: 55%;
+}
+
+.cursos-magia {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    width: 43%;
+}
+
+.cursos-magia ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 10px;
+    min-height: 60%;
+    overflow-x: initial;
+    overflow-y: auto;
+}
+
+.cursos-magia p {
+    font-weight: bold;
+    text-align: center;
 }
 
 .idioms {

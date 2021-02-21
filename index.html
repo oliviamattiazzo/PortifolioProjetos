@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio - Olivia Mattiazzo</title>
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
     <link rel="stylesheet" type="text/css" href="css/general.css" />
     <link rel="stylesheet" type="text/css" href="css/secoes_site.css" />
     <link rel="stylesheet" type="text/css" href="css/scrollbars.css" />
@@ -51,18 +52,19 @@
         </div>
 
         <div class="container-menu">
-            <div class="item-menu"><a href="#sobre" onclick="sobreController.sobre()"><i class="df-d20-20"></i>
-                <p>SOBRE</p>
-            </a></div>
+            <div class="item-menu"><a href="#sobre" onclick="sobreController.ptbr()"><i class="df-d20-20"></i>
+                    <p>SOBRE</p>
+                </a></div>
             <div class="item-menu"><a href="#carreira" onclick="carreiraController.carreira()"><i class="df-d12-12"></i>
-                <p>CARREIRA</p>
-            </a></div>
+                    <p>CARREIRA</p>
+                </a></div>
             <div class="item-menu"><i class="df-d10-10"></i>
                 <p>PROJETOS</p>
             </div>
-            <div class="item-menu"><a href="#competencias" onclick="carreiraController.carreira()"><i class="df-d8-8"></i>
-                <p>COMPETÊNCIAS</p>
-            </a></div>
+            <div class="item-menu"><a href="#competencias" onclick="carreiraController.carreira()"><i
+                        class="df-d8-8"></i>
+                    <p>COMPETÊNCIAS</p>
+                </a></div>
             <div class="item-menu"><i class="df-d4-4"></i>
                 <p>CONTATO</p>
             </div>
@@ -73,38 +75,17 @@
         <section id="sobre">
             <a href="#" class="close" onclick="sobreController.fechar()"></a>
             <div id="sobreView"></div>
-            <div class="idioms">
-                <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
-                        aria-label="Brazil Flag"></i></a> -
-                <a href="#sobre-en" onclick="sobreController.about()"><i class="em em-gb" aria-role="presentation"
-                        aria-label="United Kingdom Flag"></i></a> -
-                <a href="#sobre-es" onclick="sobreController.sobreEs()"><i class="em em-es" aria-role="presentation"
-                        aria-label="Spain Flag"></i></a>
-            </div>
+            <div id="idiomasView" class="idioms"></div>
         </section>
         <section id="sobre-en">
             <a href="#" class="close" onclick="sobreController.fechar()"></a>
             <div id="sobreViewEn"></div>
-            <div class="idioms">
-                <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
-                        aria-label="Brazil Flag"></i></a> -
-                <a href="#sobre-en" onclick="sobreController.about()"><i class="em em-gb" aria-role="presentation"
-                        aria-label="United Kingdom Flag"></i></a> -
-                <a href="#sobre-es" onclick="sobreController.sobreEs()"><i class="em em-es" aria-role="presentation"
-                        aria-label="Spain Flag"></i></a>
-            </div>
+            <div id="idiomasView" class="idioms"></div>
         </section>
         <section id="sobre-es">
             <a href="#" class="close" onclick="sobreController.fechar()"></a>
             <div id="sobreViewEs"></div>
-            <div class="idioms">
-                <a href="#sobre" onclick="sobreController.sobre()"><i class="em em-flag-br" aria-role="presentation"
-                        aria-label="Brazil Flag"></i></a> -
-                <a href="#sobre-en" onclick="sobreController.about()"><i class="em em-gb" aria-role="presentation"
-                        aria-label="United Kingdom Flag"></i></a> -
-                <a href="#sobre-es" onclick="sobreController.sobreEs()"><i class="em em-es" aria-role="presentation"
-                        aria-label="Spain Flag"></i></a>
-            </div>
+            <div id="idiomasView" class="idioms"></div>
         </section>
 
         <section id="carreira">
@@ -174,7 +155,7 @@
                             <h3>BANCOS DE DADOS</h3>
                         </div>
                         <ul>
-                            <li><i class="fas fa-server"></i> Microsoft SQL Server</li>
+                            <li><a id="sqlServer"><i class="fas fa-server"></i> Microsoft SQL Server</a></li>
                             <li><i class="fas fa-server"></i> PostgreSQL</li>
                             <li><i class="fas fa-server"></i> Oracle</li>
                             <li><i class="fas fa-server"></i> OS2200</li>
@@ -276,12 +257,39 @@
                         </ul>
                     </div>
                 </div>
-                <div class="detalhes-magia">
-                    <div class="cabecalho">
-                        <div class="nome-magia">
-                            <p>Microsoft SQL Server</p>
+                <div class="detalhes-magia" id="modalDetalhesMagia">
+                    <div class="conteudo-modal">
+                        <div class="cabecalho-magia">
+                            <div class="nome-magia">
+                                <p>Microsoft SQL Server</p>
+                            </div>
+                            <div class="bandeiras">
+                                <div class="badge">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="badge">
+                                    <i class="fas fa-journal-whills"></i>
+                                </div>
+                                <div class="badge">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                            </div>
+                            <a class="close-btn">&times;</a>
                         </div>
-                        <div class="bandeiras">
+                        <div class="conteudo-magia">
+                            <div class="texto-magia">
+                                <p>Fruitcake fruitcake candy canes icing toffee cupcake biscuit. Jelly beans macaroon candy chocolate dessert macaroon. Toffee soufflé halvah muffin sweet roll icing tootsie roll chocolate jelly. Jelly-o carrot cake fruitcake
+                                    caramels.
+                                </p>
+                            </div>
+                            <div class="cursos-magia">
+                                <ul>
+                                    <li><i class="fas fa-scroll"></i> Curso xpto</li>
+                                </ul>
+                                <p>CURSOS</p>
+                            </div>
+                        </div>
+                        <div class="rodape-magia">
 
                         </div>
                     </div>
@@ -301,11 +309,11 @@
             <!--<div id=""></div>-->
             <div class="idioms">
                 <a href="#competencias" onclick="competenciasController.competencias()"><i class="em em-flag-br"
-                    aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                        aria-role="presentation" aria-label="Brazil Flag"></i></a> -
                 <a href="#competencias-en" onclick="competenciasController.skills()"><i class="em em-gb"
-                    aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                        aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
                 <a href="#competencias-es" onclick="competenciasController.habilidades()"><i class="em em-es"
-                    aria-role="presentation" aria-label="Spain Flag"></i></a>
+                        aria-role="presentation" aria-label="Spain Flag"></i></a>
             </div>
         </section>
         <section id="competencias-es">
@@ -313,17 +321,18 @@
             <!--<div id=""></div>-->
             <div class="idioms">
                 <a href="#competencias" onclick="competenciasController.competencias()"><i class="em em-flag-br"
-                    aria-role="presentation" aria-label="Brazil Flag"></i></a> -
+                        aria-role="presentation" aria-label="Brazil Flag"></i></a> -
                 <a href="#competencias-en" onclick="competenciasController.skills()"><i class="em em-gb"
-                    aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
+                        aria-role="presentation" aria-label="United Kingdom Flag"></i></a> -
                 <a href="#competencias-es" onclick="competenciasController.habilidades()"><i class="em em-es"
-                    aria-role="presentation" aria-label="Spain Flag"></i></a>
+                        aria-role="presentation" aria-label="Spain Flag"></i></a>
             </div>
         </section>
     </div>
 
     <script src="js/effects/MagicCursor.js"></script>
     <script src="js/effects/FecharSections.js"></script>
+    <script src="js/effects/ModalDetalhesMagia.js"></script>
     <script src="js/controllers/SobreController.js"></script>
     <script src="js/controllers/CarreiraController.js"></script>
     <script src="js/repositories/pt-br.js"></script>
@@ -332,6 +341,7 @@
     <script src="js/views/View.js"></script>
     <script src="js/views/CarreiraView.js"></script>
     <script src="js/views/SobreView.js"></script>
+    <script src="js/views/ViewsNaoInternacionalizadas/IdiomasView.js"></script>
     <script>
         let carreiraController = new CarreiraController();
         let sobreController = new SobreController();

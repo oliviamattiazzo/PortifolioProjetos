@@ -1,28 +1,26 @@
 class SobreController {
     constructor() {
         let $ = document.querySelector.bind(document);
+        let idSection = "sobre";
 
-        this._sobreView = new SobreView($("#sobreView"));
-        this._sobreViewEn = new SobreView($("#sobreViewEn"));
-        this._sobreViewEs = new SobreView($("#sobreViewEs"));
+        this._sobreView = new SobreView($("#sobreView"), idSection);
+        this._sobreViewEn = new SobreView($("#sobreViewEn"), idSection);
+        this._sobreViewEs = new SobreView($("#sobreViewEs"), idSection);
     }
 
-    sobre() {
+    ptbr() {
         this._sobreView.update(ptbr);
     }
 
-    about() {
+    english() {
         this._sobreViewEn.update(en);
     }
 
-    sobreEs() {
+    espanol() {
         this._sobreViewEs.update(es);
     }
 
     fechar() {
         FecharSections.fechar(this._sobreView, this._sobreViewEn, this._sobreViewEs);
-        // this._sobreView.limpar();
-        // this._sobreViewEn.limpar();
-        // this._sobreViewEs.limpar();
     }
 }

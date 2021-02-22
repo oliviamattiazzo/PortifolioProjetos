@@ -362,6 +362,25 @@ a {
     text-align: center;
 }
 
+.rodape-magia {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    display: flex;
+}
+
+.informacoes-magia {
+    width: 50%;
+}
+
+.info1-magia,
+.info2-magia {
+    border: 2px solid black;
+}
+
+.info2-magia {
+    margin-top: 10px;
+}
+
 .idioms {
     width: 100%;
     height: 10px;

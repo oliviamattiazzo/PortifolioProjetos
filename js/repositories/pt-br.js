@@ -26,15 +26,15 @@ let ptbr = {
             },
             pontos_habilidade: {
                 titulo_idade: "IDADE",
-                valor_idade: "28",
+                valor_idade: Calculos.calculaIdadeAtual(),
                 titulo_anos_xp: "ANOS XP",
-                valor_anos_xp: "9",
+                valor_anos_xp: Calculos.calculaAnosExperiencia(),
                 titulo_idiomas: "IDIOMAS",
-                valor_idiomas: "4",
+                valor_idiomas: Constantes.numIdiomas,
                 titulo_cursos: "CURSOS",
-                valor_cursos: "20",
+                valor_cursos: Constantes.numCursos,
                 titulo_empresas: "EMPRESAS",
-                valor_empresas: "5"
+                valor_empresas: Constantes.numEmpresas
             },
             texto: {
                 paragrafo1: "Olá! Meu nome é Olivia Mattiazzo e atualmente trabalho como Consultora .NET em Oeiras, no distrito de Lisboa, Portugal.",
@@ -42,7 +42,7 @@ let ptbr = {
                 paragrafo3: "Desde o início da minha graduação até agora, tive a oportunidade de estagiar e trabalhar com desenvolvimento. A maior parte da minha carreira se deu desenvolvendo sistemas governamentais — com clientes como a FDE (SP – BR), o BRDE (RS – BR) e a Segurança Social de Portugal.",
                 paragrafo4: "Eu sou apaixonada por tecnologias Microsoft, especialmente o C#, e estudo e pratico muito porque gostaria de me tornar uma referência em relação à isso. Também tenho uma grande preferência e facilidade com o backend — eu também gosto de front, mas não sou tão boa. Prefiro encará-lo quase como um artesanato do que ter que trabalhar exclusivamente com ele!",
                 paragrafo5: "Fora do mundo do desenvolvimento, gosto muito de estudar idiomas — além do meu português brasileiro fluente (e português de Portugal avançado 😂), tenho inglês fluente, algumas noções de alemão e atualmente faço aulas de espanhol, e já estou no nível intermediário.",
-                paragrafo6: "No meu tempo livre, você também pode me encontrar montando fichas de RPG e escrevendo backgrounds para personagens, assistindo séries, jogando videogame (Overwatch ❤) ou planejando minha próxima viagem e/ou show! Gosto muito de explorar: lugares, comidas, culturas, conceitos e sentimentos. Seguimos com a cabeça sempre aberta e o coração muito cheio!"
+                paragrafo6: "No meu tempo livre, você também pode me encontrar montando fichas de RPG e escrevendo backgrounds para personagens, assistindo séries, jogando videogame ou planejando minha próxima viagem e/ou show! Gosto muito de explorar: lugares, comidas, culturas, conceitos e sentimentos. Seguimos com a cabeça sempre aberta e o coração muito cheio!"
             }
         }
     },

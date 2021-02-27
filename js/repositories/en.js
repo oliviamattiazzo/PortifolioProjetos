@@ -26,15 +26,15 @@ let en = {
             },
             pontos_habilidade: {
                 titulo_idade: "AGE",
-                valor_idade: "28",
+                valor_idade: Calculos.calculaIdadeAtual(),
                 titulo_anos_xp: "XP YEARS",
-                valor_anos_xp: "9",
+                valor_anos_xp: Calculos.calculaAnosExperiencia(),
                 titulo_idiomas: "IDIOMS",
-                valor_idiomas: "4",
+                valor_idiomas: Constantes.numIdiomas,
                 titulo_cursos: "COURSES",
-                valor_cursos: "20",
+                valor_cursos: Constantes.numCursos,
                 titulo_empresas: "COMPANIES",
-                valor_empresas: "5"
+                valor_empresas: Constantes.numEmpresas
             },
             texto: {
                 paragrafo1: "Hi there! My name is Olivia Mattiazzo and I'm currently working as a .NET Consultant, based in Oeiras, Lisbon district, Portugal.",
@@ -42,7 +42,7 @@ let en = {
                 paragrafo3: "Since the beginning of my course in college until now, I had the opportunity to be an intern and also work profissionally with software development. The most part of my career was developing governmental systems - with clients as FDE (SP - BR), BRDE (RS - BR) and Portugal's Social Security.",
                 paragrafo4: "I'm passionate about Microsoft technologies, especially C#, and I've been studying and practicing a lot because I really would like to become a reference about it. I consider myself a backend developer because it's easier for me and it's what I prefer to work with. I also like frontend, but I'm not so good at it. I rather see it as a hobby than having to work exclusively with it! ",
                 paragrafo5: "Out of the software development bubble, I really like to study idioms — besides my brazilian Portuguese fluent, I'm fluent at English, I have some notions of German and I'm currently having Spanish classes, and I'm already in the intermediate level.",
-                paragrafo6: "In my free time, you can find me creating characters and backgrounds for RPG games, watching TV shows, playing videogame (Overwatch ❤) or planning my next trip and/or concert! I really like to explore: places, foods, cultures, concepts and feelings. We keep on going with the head always open and the heart very full!"
+                paragrafo6: "In my free time, you can find me creating characters and backgrounds for RPG games, watching TV shows, playing videogame or planning my next trip and/or concert! I really like to explore: places, foods, cultures, concepts and feelings. We keep on going with the head always open and the heart very full!"
             }
         }
     },

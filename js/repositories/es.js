@@ -3,21 +3,21 @@ let es = {
         titulo: "Sobre",
         conteudo: {
             lista_habilidades: {
-                titulo: "SKILLS",
-                texto_tooltip: "As habilidades destacadas são as utilizadas na aventura atual",
-                dotnet: ".NET (C# e Visual Basic)",
-                bd: "Banco de dados",
+                titulo: "HABILIDADES",
+                texto_tooltip: "Las habilidades destacadas son las usadas en la aventura actual",
+                dotnet: ".NET (C# y Visual Basic)",
+                bd: "Banco de datos",
                 css: "CSS",
-                desenvolvimento_software: "Desenv. de software",
+                desenvolvimento_software: "Desarrollo de software",
                 git: "Git",
-                ingles: "Inglês",
+                ingles: "Inglés",
                 javascript: "Javascript",
                 jquery: "jQuery",
                 html: "HTML",
                 nunit: "NUnit",
                 os2200: "OS2200",
-                testes_automatizados: "Testes automatizados",
-                testes_carga: "Testes de carga",
+                testes_automatizados: "Pruebas automatizadas",
+                testes_carga: "Pruebas de carga",
                 razor: "Razor",
                 selenium: "Selenium",
                 sql: "SQL",
@@ -25,24 +25,24 @@ let es = {
                 xml: "XML"
             },
             pontos_habilidade: {
-                titulo_idade: "IDADE",
-                valor_idade: "28",
-                titulo_anos_xp: "ANOS XP",
-                valor_anos_xp: "9",
+                titulo_idade: "EDAD",
+                valor_idade: Calculos.calculaIdadeAtual(),
+                titulo_anos_xp: "AÑOS XP",
+                valor_anos_xp: Calculos.calculaAnosExperiencia(),
                 titulo_idiomas: "IDIOMAS",
-                valor_idiomas: "4",
+                valor_idiomas: Constantes.numIdiomas,
                 titulo_cursos: "CURSOS",
-                valor_cursos: "20",
+                valor_cursos: Constantes.numCursos,
                 titulo_empresas: "EMPRESAS",
-                valor_empresas: "5"
+                valor_empresas: Constantes.numEmpresas
             },
             texto: {
-                paragrafo1: "Olá! Meu nome é Olivia Mattiazzo e atualmente trabalho como Consultora .NET em Oeiras, no distrito de Lisboa, Portugal.",
-                paragrafo2: "Nasci e cresci no interior de São Paulo e grande parte da minha formação acadêmica vem de lá — fiz um técnico em informática e bacharelado em Sistemas de Informação, tudo pela Unesp de Bauru. Também tive a oportunidade de realizar o sonho do intercâmbio, através do programa Ciência Sem Fronteiras, na Trinity College, em Dublin. Fiz um ano letivo completo lá e três meses de estágio. Na época, era uma das 100 melhores universidades do mundo!",
-                paragrafo3: "Desde o início da minha graduação até agora, tive a oportunidade de estagiar e trabalhar com desenvolvimento. A maior parte da minha carreira se deu desenvolvendo sistemas governamentais — com clientes como a FDE (SP – BR), o BRDE (RS – BR) e a Segurança Social de Portugal.",
-                paragrafo4: "Eu sou apaixonada por tecnologias Microsoft, especialmente o C#, e estudo e pratico muito porque gostaria de me tornar uma referência em relação à isso. Também tenho uma grande preferência e facilidade com o backend — eu também gosto de front, mas não sou tão boa. Prefiro encará-lo quase como um artesanato do que ter que trabalhar exclusivamente com ele!",
-                paragrafo5: "Fora do mundo do desenvolvimento, gosto muito de estudar idiomas — além do meu português brasileiro fluente (e português de Portugal avançado 😂), tenho inglês fluente, algumas noções de alemão e atualmente faço aulas de espanhol, e já estou no nível intermediário.",
-                paragrafo6: "No meu tempo livre, você também pode me encontrar montando fichas de RPG e escrevendo backgrounds para personagens, assistindo séries, jogando videogame (Overwatch ❤) ou planejando minha próxima viagem e/ou show! Gosto muito de explorar: lugares, comidas, culturas, conceitos e sentimentos. Seguimos com a cabeça sempre aberta e o coração muito cheio!"
+                paragrafo1: "¡Hola! Mi nombre es Olivia Mattiazzo y en este momento trabajo como Consultora .NET en Oeiras, en el distrito de Lisboa, Portugal.",
+                paragrafo2: "Yo naci y creci en el interior del estado de São Paulo y grande parte de mi formación académica viene de allá - yo hice un curso técnico en Informática y una licenciatura en Sistemas de Información, todo por la Unesp de Bauru. También tuve la oportunidad de hacer realidad el sueño de estudiar fuera del pais, a través del programa Ciencias Sin Fronteras, en la Trinity College, en Dublin. Yo cumplí un año escolar completo allá y también tres meses de prácticas. ¡En la época, era una de las 100 mejores universidades del mundo!",
+                paragrafo3: "Desde el princípio de mi grado en la universidad hasta ahora, yo tuve la oportunidad de hacer prácticas y trabajar con desarrollo de software. La mayor parte de mi carrera profesional fue desarrollando sistemas gubernamentales - con clientes como la FDE (SP – BR), el BRDE (RS – BR) y la Seguridad Social de Portugal.",
+                paragrafo4: "Soy entusiasta por las tecnologias de Microsoft, especialmente el C#, y yo estudo e practico mucho porque me gustaria tornarme una referencia relacionada a esto. También tengo una gran preferencia y facilidad con el backend - a mi también me gusta el front, pero yo no soy tan buena. Prefiero verlo casi como una artesanía que tener que trabajar exclusivamente con él.",
+                paragrafo5: "Fuera del mundo del desarrollo de software, me gusta mucho estudiar idiomas - además de hablar portugués brasileño fluentemente (y portugués europeo avanzado 😂), también tengo inglés fluente, algunas nociones de alemán y actualmente tengo clases de español, y ya estoy en el nivel intermediario.",
+                paragrafo6: "En mi tiempo libre, también puedes encontrarme escribindo nuevos personajes para RPG, viendo series, jugando videojuegos o planeando mi próximo viaje e/o concierto. Me encanta explorar: lugares, comidas, culturas, conceptos y sentimientos. ¡Seguimos con la cabeza siempre abierta y corazón muy lleno!"
             }
         }
     },

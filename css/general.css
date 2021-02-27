@@ -330,6 +330,10 @@ a {
     margin-top: 0.3em;
 }
 
+.badge:hover {
+    color: #1d976c;
+}
+
 .conteudo-magia {
     display: flex;
     font-family: 'Lato', sans-serif;
@@ -344,6 +348,7 @@ a {
 .cursos-magia {
     border: 2px solid black;
     border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
     color: black;
     width: 43%;
 }
@@ -362,23 +367,67 @@ a {
     text-align: center;
 }
 
+.cursos-magia i:hover {
+    color: #1d976c;
+}
+
 .rodape-magia {
     font-family: 'Lato', sans-serif;
     margin-top: 20px;
     display: flex;
 }
 
-.informacoes-magia {
+.info-magia {
+    border: 2px solid black;
+    box-shadow: 5px 10px 18px #888888;
     width: 50%;
 }
 
-.info1-magia,
-.info2-magia {
-    border: 2px solid black;
+.titulo-info-magia {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 
-.info2-magia {
-    margin-top: 10px;
+.descricao-info-magia {
+    font-size: 1.5em;
+    margin-right: 2px;
+    margin-top: -10px;
+    text-align: right;
+}
+
+.nivel-progresso-magia {
+    margin-left: 40px;
+    width: 43%;
+}
+
+.nivel-progresso-magia .titulo-info-magia {
+    text-align: center;
+}
+
+.progresso-magia {
+    background-color: black;
+    height: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.progresso-magia .barra-progresso-magia {
+    animation: progress-animation 6s 1;
+    animation-fill-mode: forwards;
+    background: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 100%;
+    position: absolute;
+}
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%
+    }
 }
 
 .idioms {

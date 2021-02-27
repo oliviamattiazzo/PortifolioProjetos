@@ -19,12 +19,17 @@
     z-index: 1;
 }
 
+.tooltiptext {
+    font-family: 'Lato', sans-serif;
+}
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
 
 .tooltiptext img {
     height: 15px;
+    margin-right: 3px;
     vertical-align: baseline;
     width: 15px;
 }

@@ -1,7 +1,6 @@
 class View {
     constructor(elemento, section) {
         this._elemento = elemento;
-
         this._idSection = section;
     }
 

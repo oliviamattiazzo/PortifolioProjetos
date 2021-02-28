@@ -1,4 +1,5 @@
 let en = {
+    id: "en",
     sobre: {
         titulo: "About",
         conteudo: {

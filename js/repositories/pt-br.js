@@ -1,4 +1,5 @@
 let ptbr = {
+    id: "ptbr",
     sobre: {
         titulo: "Sobre",
         conteudo: {
@@ -60,6 +61,36 @@ let ptbr = {
                 periodo: " 07/2018 - 01/2019",
                 stack: " HTML, Razor, Javascript, jQuery, C# (.NET 4.7.1), PL/SQL (Oracle), Visual Studio e SpecFlow",
                 descricao: "Implementação de novas funcionalidades para o novo sistema de gerenciamento do BRDE, banco de desenvolvimento governamental. Construção e manutenção de layouts com a sintaxe Razor e Javascript. Desenvolvimento e manutenção de testes automatizados de comportamento com a framework SpecFlow. Neste projeto, também houve a oportunidade de trabalhar de forma muito próxima com os analistas de requisitos do cliente, demandando boas habilidades de comunicação e relacionamento interpessoal."
+            }
+        }
+    },
+    competencias: {
+        titulo: "Competências",
+        conteudo: {
+            magias_backend: {
+                id: "magias_backend",
+                titulo: "BACKEND",
+                itens: {
+                    csharp: {
+                        id: "csharp",
+                        titulo: "C#",
+                        badge_uso_atualmente: true,
+                        badge_somente_estudei: true,
+                        badge_usei_anteriormente: true,
+                        texto: "Eu gosto do .NET/C# desde o meu primeiro contato com ele no meu curso técnico. Também foi a primeira linguagem que atuei profissionamente, e sigo em ela até então",
+                        cursos: [{
+                            titulo_curso: "WCF: Distribua seus sistemas em .NET",
+                            data_conclusao: "Dez/2020",
+                            organizacao: "Alura",
+                            link_certificado: "https://cursos.alura.com.br/certificate/8d281fef-04a4-4c41-9a74-154b0368ca94"
+                        }]
+                    },
+                    ling_c: "C",
+                    java: "Java",
+                    php: "PHP",
+                    sql: "SQL",
+                    vb_net: "VB.NET"
+                }
             }
         }
     }

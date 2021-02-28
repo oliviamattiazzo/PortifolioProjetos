@@ -261,6 +261,14 @@ a {
     margin: 5px;
 }
 
+.lista-magias ul button {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    cursor: pointer;
+    font-size: 1em;
+    outline: 0;
+}
+
 .lista-magias li i:hover {
     color: #0f9b0f;
 }

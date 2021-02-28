@@ -1,6 +1,7 @@
 class ModalView {
     constructor(elementoPai) {
         this._elementoPai = elementoPai;
+        this._elementoModal = this._elementoPai.childNodes[4];
     }
 
     template() {
@@ -8,12 +9,11 @@ class ModalView {
     }
 
     updateModal(conteudoModal) {
-        this._elementoModal = this._elementoPai.childNodes[4];
-        console.log(this);
         this._elementoModal.innerHTML = this.template(conteudoModal);
+        this._elementoModal.style.display = "block";
     }
 
     limpar() {
-        this._elemento.innerHTML = "";
+        this._elementoModal.style.display = "none";
     }
 }

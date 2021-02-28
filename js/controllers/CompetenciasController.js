@@ -32,4 +32,8 @@ class CompetenciasController {
         this._competenciasModalView = new CompetenciasModalView(document.querySelector(`#competenciasView${this._idiomaAtual.id == 'ptbr' ? '' : this._idiomaAtual.id}`));
         this._competenciasModalView.updateModal(this._idiomaAtual.competencias.conteudo[idTipoMagia].itens[idConteudoModal]);
     }
+
+    fecharModal() {
+        this._competenciasModalView.limpar();
+    }
 }

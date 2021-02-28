@@ -75,9 +75,9 @@ let ptbr = {
                         id: "csharp",
                         titulo: "C#",
                         badge_uso_atualmente: true,
-                        badge_somente_estudei: true,
-                        badge_usei_anteriormente: true,
-                        texto: "Eu gosto do .NET/C# desde o meu primeiro contato com ele no meu curso técnico. Também foi a primeira linguagem que atuei profissionamente, e sigo em ela até então",
+                        badge_somente_estudei: false,
+                        badge_usei_anteriormente: false,
+                        texto: "Eu gosto do .NET/C# desde o meu primeiro contato com ele no meu curso técnico. Também foi a primeira linguagem que atuei profissionamente, e sigo com ela até os dias de hoje.",
                         cursos: [{
                             titulo_curso: "WCF: Distribua seus sistemas em .NET",
                             data_conclusao: "Dez/2020",

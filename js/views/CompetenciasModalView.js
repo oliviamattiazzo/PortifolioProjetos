@@ -8,18 +8,18 @@ class CompetenciasModalView extends ModalView {
                         <div class="bandeiras">
                             <div class="badge tooltip">
                                 ${detalhesMagia.badge_uso_atualmente ? 
-                                    '<i class="fas fa-certificate"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">Uso atualmente no meu trabalho</span>' : ''}
+                                    '<i class="fas fa-certificate"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">Uso atualmente no meu trabalho e também estudo sobre</span>' : ''}
                             </div>
                             <div class="badge tooltip">
                                 ${detalhesMagia.badge_somente_estudei ? 
-                                    '<i class="fas fa-journal-whills"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">Já estudei sobre</span>' : ''}
+                                    '<i class="fas fa-journal-whills"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">Já estudei sobre, porém nunca utilizei profissionalmente</span>' : ''}
                             </div>
                             <div class="badge tooltip">
                                 ${detalhesMagia.badge_usei_anteriormente ? 
                                     '<i class="fas fa-medal"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">Já trabalhei, mas não uso atualmente</span>' : ''}
                             </div>
                         </div>
-                        <a class="close-btn">&times;</a>
+                        <a class="close-btn" onclick="competenciasController.fecharModal()">&times;</a>
                     </div>
                     <div class="conteudo-magia">
                         <div class="texto-magia">

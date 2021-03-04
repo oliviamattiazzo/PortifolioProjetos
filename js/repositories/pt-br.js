@@ -80,10 +80,22 @@ let ptbr = {
                         texto: "Eu gosto do .NET/C# desde o meu primeiro contato com ele no meu curso técnico. Também foi a primeira linguagem que atuei profissionamente, e sigo com ela até os dias de hoje.",
                         cursos: [{
                             titulo_curso: "WCF: Distribua seus sistemas em .NET",
-                            data_conclusao: "Dez/2020",
-                            organizacao: "Alura",
                             link_certificado: "https://cursos.alura.com.br/certificate/8d281fef-04a4-4c41-9a74-154b0368ca94"
-                        }]
+                        }, {
+                            titulo_curso: "C#: Testes de unidade e TDD com xUnit",
+                            link_certificado: "https://cursos.alura.com.br/certificate/2c0cc9dd-73e5-45ce-99be-6299b6c9dfc2"
+                        }, {
+                            titulo_curso: "Entity Framework Core: Banco de dados de forma eficiente",
+                            link_certificado: "https://cursos.alura.com.br/certificate/384e86e1-7d86-47e0-93a7-22388fc79230"
+                        }, {
+                            titulo_curso: "C# Refatoração Parte 1: Praticando refatoração de código",
+                            link_certificado: "https://cursos.alura.com.br/certificate/ae73632a-ce26-408d-bd53-991f2f05b688"
+                        }, {
+                            titulo_curso: "SOLID com C#: Orientação a objetos com C#",
+                            link_certificado: "https://cursos.alura.com.br/certificate/7f684a71-0d9c-4452-a649-c2dbbfb4f8bd"
+                        }],
+                        duracao: Constantes.numAnosCSharp + " anos",
+                        class_css_nivel: "barra-progresso-magia90"
                     },
                     ling_c: "C",
                     java: "Java",
@@ -92,6 +104,14 @@ let ptbr = {
                     vb_net: "VB.NET"
                 }
             }
+        },
+        labels: {
+            tooltip_badge_uso_atualmente: "Uso atualmente no meu trabalho e também estudo sobre",
+            tooltip_badge_somente_estudei: "Já estudei sobre, porém nunca utilizei profissionalmente",
+            tooltip_badge_usei_anteriormente: "Já trabalhei, mas não uso atualmente",
+            label_cursos: "CURSOS",
+            label_duracao: "DURAÇÃO",
+            label_nivel: "NÍVEL"
         }
     }
 }

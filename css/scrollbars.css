@@ -1,16 +1,23 @@
-.foto-ptos-habilidade ul::-webkit-scrollbar {
+.foto-ptos-habilidade ul::-webkit-scrollbar,
+.cursos-magia ul::-webkit-scrollbar {
     width: 5px;
 }
 
-.foto-ptos-habilidade ul::-webkit-scrollbar-track {
+.foto-ptos-habilidade ul::-webkit-scrollbar-track,
+.cursos-magia ul::-webkit-scrollbar {
     border-radius: 10px;
 }
 
-.foto-ptos-habilidade ul::-webkit-scrollbar-thumb {
+.foto-ptos-habilidade ul::-webkit-scrollbar-thumb,
+.cursos-magia ul::-webkit-scrollbar-thumb {
     background: #240b36;
     border-radius: 5px;
 }
 
 .foto-ptos-habilidade ul::-webkit-scrollbar-thumb:hover {
     background: #c31432;
+}
+
+.cursos-magia ul::-webkit-scrollbar-thumb:hover {
+    background: #1d976c;
 }

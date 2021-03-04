@@ -8,8 +8,8 @@ class ModalView {
         throw new Error('O método template deve ser implementado');
     }
 
-    updateModal(conteudoModal) {
-        this._elementoModal.innerHTML = this.template(conteudoModal);
+    updateModal(conteudoModal, labelsModal) {
+        this._elementoModal.innerHTML = this.template(conteudoModal, labelsModal);
         this._elementoModal.style.display = "block";
     }
 

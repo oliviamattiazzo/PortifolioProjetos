@@ -443,89 +443,6 @@ a {
     text-align: center;
 }
 
-.progresso-magia {
-    background-color: black;
-    height: 10px;
-    margin-top: 5px;
-    position: relative;
-}
-
-.progresso-magia .barra-progresso-magia50,
-.progresso-magia .barra-progresso-magia60,
-.progresso-magia .barra-progresso-magia70,
-.progresso-magia .barra-progresso-magia80,
-.progresso-magia .barra-progresso-magia90 {
-    animation-fill-mode: forwards;
-    background: linear-gradient(to right, #1d976c, #93f9b9);
-    height: 100%;
-    position: absolute;
-}
-
-.barra-progresso-magia50 {
-    animation: progress-animation-50 6s 1;
-}
-
-.barra-progresso-magia60 {
-    animation: progress-animation-60 6s 1;
-}
-
-.barra-progresso-magia70 {
-    animation: progress-animation-70 6s 1;
-}
-
-.barra-progresso-magia80 {
-    animation: progress-animation-80 6s 1;
-}
-
-.barra-progresso-magia90 {
-    animation: progress-animation-90 6s 1;
-}
-
-@keyframes progress-animation-50 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 50%
-    }
-}
-
-@keyframes progress-animation-60 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 60%
-    }
-}
-
-@keyframes progress-animation-70 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 70%
-    }
-}
-
-@keyframes progress-animation-80 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 80%
-    }
-}
-
-@keyframes progress-animation-90 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 90%
-    }
-}
-
 .idioms {
     width: 100%;
     height: 10px;
@@ -533,4 +450,27 @@ a {
     bottom: 20px;
     text-align: center;
     font-size: 14px;
+}
+
+footer {
+    bottom: 10px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    height: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+footer a:active {
+    color: #eaafc8;
 }

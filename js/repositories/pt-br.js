@@ -97,8 +97,28 @@ let ptbr = {
                         duracao: Constantes.numAnosCSharp + " anos",
                         class_css_nivel: "barra-progresso-magia90"
                     },
-                    ling_c: "C",
-                    java: "Java",
+                    ling_c: {
+                        id: "ling_c",
+                        titulo: "C",
+                        badge_uso_atualmente: true,
+                        badge_somente_estudei: false,
+                        badge_usei_anteriormente: false,
+                        texto: "Eu tive uma grande base da linguagem C durante o curso técnico e a faculdade. Foi com ele e com o Pascal que aprendi a programar. Utilizo atualmente no meu trabalho, compilando-os através do OS2200.",
+                        cursos: [],
+                        duracao: Constantes.numAnosLingC + " anos",
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    java: {
+                        id: "java",
+                        titulo: "Java",
+                        badge_uso_atualmente: false,
+                        badge_somente_estudei: false,
+                        badge_usei_anteriormente: true,
+                        texto: "Também estudei majoritariamente sobre o Java durante o curso técnico e a faculdade. Utilizei-o profissionalmente somente no meu estágio na Trinity College, pois necessitava da ferramenta HTMLUnit para o desenvolvimento do projeto.",
+                        cursos: [],
+                        duracao: Constantes.numAnosJava + " meses",
+                        class_css_nivel: "barra-progresso-magia30"
+                    },
                     php: "PHP",
                     sql: "SQL",
                     vb_net: "VB.NET"
@@ -106,9 +126,9 @@ let ptbr = {
             }
         },
         labels: {
-            tooltip_badge_uso_atualmente: "Uso atualmente no meu trabalho e também estudo sobre",
+            tooltip_badge_uso_atualmente: "Uso atualmente no meu trabalho e já estudei sobre",
             tooltip_badge_somente_estudei: "Já estudei sobre, porém nunca utilizei profissionalmente",
-            tooltip_badge_usei_anteriormente: "Já trabalhei, mas não uso atualmente",
+            tooltip_badge_usei_anteriormente: "Já trabalhei e estudei sobre, mas não uso atualmente",
             label_cursos: "CURSOS",
             label_duracao: "DURAÇÃO",
             label_nivel: "NÍVEL"

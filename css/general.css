@@ -369,7 +369,7 @@ a {
     list-style-type: none;
     list-style-position: inside;
     margin: 10px;
-    max-height: 77%;
+    height: 77%;
     overflow-x: initial;
     overflow-y: auto;
 }

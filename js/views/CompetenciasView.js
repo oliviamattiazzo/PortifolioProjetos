@@ -1,6 +1,6 @@
 class CompetenciasView extends View {
     template(idioma) {
-        return `<h1>Competências</h1>
+        return `<h1>${idioma.competencias.titulo}</h1>
                 <div class="conteudo-competencias">
                     <div class="spellbook">
                         <div class="lista-magias">
@@ -8,15 +8,21 @@ class CompetenciasView extends View {
                                 <div class="sigla-titulo-magia">
                                     <h3>1</h3>
                                 </div>
-                                <h3>BACKEND</h3>
+                                <h3>${idioma.competencias.conteudo.titulo}</h3>
                             </div>
                             <ul>
                                 <li>
                                     <button id="btnAtivaModal" onclick="competenciasController.abrirModal('${idioma.competencias.conteudo.magias_backend.id}', '${idioma.competencias.conteudo.magias_backend.itens.csharp.id}')">
-                                    <i class="fas fa-save"></i></button> C#
+                                    <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.csharp.titulo}
                                 </li>
-                                <li><i class="fas fa-save"></i> C</li>
-                                <li><i class="fas fa-save"></i> Java</li>
+                                <li>
+                                    <button id="btnAtivaModal" onclick="competenciasController.abrirModal('${idioma.competencias.conteudo.magias_backend.id}', '${idioma.competencias.conteudo.magias_backend.itens.ling_c.id}')">
+                                    <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.ling_c.titulo}
+                                </li>
+                                <li>
+                                    <button id="btnAtivaModal" onclick="competenciasController.abrirModal('${idioma.competencias.conteudo.magias_backend.id}', '${idioma.competencias.conteudo.magias_backend.itens.java.id}')">
+                                    <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.java.titulo}
+                                </li>
                                 <li><i class="fas fa-save"></i> PHP</li>
                                 <li><i class="fas fa-save"></i> SQL</li>
                                 <li><i class="fas fa-save"></i> VB.NET</li>

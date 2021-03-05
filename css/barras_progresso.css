@@ -5,6 +5,7 @@
     position: relative;
 }
 
+.progresso-magia .barra-progresso-magia30,
 .progresso-magia .barra-progresso-magia50,
 .progresso-magia .barra-progresso-magia60,
 .progresso-magia .barra-progresso-magia70,
@@ -14,6 +15,10 @@
     background: linear-gradient(to right, #1d976c, #93f9b9);
     height: 100%;
     position: absolute;
+}
+
+.barra-progresso-magia30 {
+    animation: progress-animation-30 6s 1;
 }
 
 .barra-progresso-magia50 {
@@ -34,6 +39,15 @@
 
 .barra-progresso-magia90 {
     animation: progress-animation-90 6s 1;
+}
+
+@keyframes progress-animation-30 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%
+    }
 }
 
 @keyframes progress-animation-50 {

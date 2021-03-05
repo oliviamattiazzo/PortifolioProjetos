@@ -14,4 +14,12 @@ class Constantes {
     static get numAnosCSharp() {
         return 7;
     }
+
+    static get numAnosLingC() {
+        return 2;
+    }
+
+    static get numAnosJava() {
+        return 3;
+    }
 }

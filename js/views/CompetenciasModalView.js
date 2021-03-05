@@ -12,7 +12,7 @@ class CompetenciasModalView extends ModalView {
                             </div>
                             <div class="badge tooltip">
                                 ${detalhesMagia.badge_somente_estudei ? 
-                                    `<i class="fas fa-journal-whills"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">${labelsMagia.tooltip_badge_uso_atualmente}</span>` : ''}
+                                    `<i class="fas fa-journal-whills"></i><span class="tooltiptext"><img src="img/infoicon.png" alt="">${labelsMagia.tooltip_badge_somente_estudei}</span>` : ''}
                             </div>
                             <div class="badge tooltip">
                                 ${detalhesMagia.badge_usei_anteriormente ? 

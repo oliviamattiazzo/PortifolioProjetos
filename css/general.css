@@ -223,6 +223,17 @@ a {
     }
 }
 
+.conteudo-carreira {
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 .conteudo-competencias {
     display: flex;
     align-items: flex-start;

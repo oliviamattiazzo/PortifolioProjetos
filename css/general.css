@@ -224,14 +224,61 @@ a {
 }
 
 .conteudo-carreira {
-    background-image: url(../img/map.jpg);
+    /* background-image: url(../img/map.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     background-size: cover;
+    font-size: 3em;
     height: 500px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-bottom: 10px;
+}
+
+@media (min-width: 1900px) {
+    .conteudo-carreira {
+        font-size: 4em;
+        height: 850px;
+    }
+}
+
+.conteudo-carreira i {
+    color: black;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px white;
+}
+
+.conteudo-carreira i:hover {
+    color: white;
+    text-shadow: 2px 2px 20px white;
+}
+
+.organizador-icones {
+    display: flex;
+}
+
+.organizador-icones img {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.caminho {
+    font-size: 0.25em;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.caminho i {
+    margin-right: 5px;
+    color: black;
+    text-shadow: none;
+}
+
+.caminho i:hover {
+    text-shadow: none;
+    color: black;
 }
 
 .conteudo-competencias {

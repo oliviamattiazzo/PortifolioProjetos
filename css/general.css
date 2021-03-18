@@ -131,10 +131,7 @@ a {
 }
 
 .foto-ptos-habilidade img {
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     height: 250px;
-    object-fit: cover;
-    object-position: left top;
     width: 250px;
 }
 

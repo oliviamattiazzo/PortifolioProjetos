@@ -5,7 +5,7 @@ class SobreView extends View {
                     <div class="foto-ptos-habilidade">
                         <div>
                             <figure>
-                                <img src="img/selfie_blog.jpeg" alt="">
+                                <img src="img/selfie_blog.png" alt="">
                             </figure>
                             <div class="lista-skills tooltip">
                                 <ul>

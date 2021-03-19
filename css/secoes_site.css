@@ -52,7 +52,8 @@ section:target h1 {
 #carreira,
 #carreira-es,
 #carreira-en {
-    background: linear-gradient(to right, #f46b45, #eea849);
+    /* background: linear-gradient(to right, #f46b45, #eea849); */
+    background: linear-gradient(to right, #000046, #1cb5e0);
 }
 
 #projetos {

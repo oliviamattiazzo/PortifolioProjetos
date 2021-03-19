@@ -102,7 +102,7 @@ a {
 }
 
 .df-d12-12:hover {
-    color: #FF7F50;
+    color: blue;
     text-shadow: 2px 2px 5px white;
 }
 
@@ -117,7 +117,7 @@ a {
 }
 
 .df-d4-4:hover {
-    color: blue;
+    color: #FF7F50;
     text-shadow: 2px 2px 5px white;
 }
 
@@ -227,9 +227,10 @@ a {
     margin-right: 10px;
     margin-left: 50px;
     margin-bottom: 10px;
+    width: 120%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 @media (min-width: 1900px) {
@@ -239,15 +240,18 @@ a {
     }
 }
 
-.conteudo-carreira i {
-    color: black;
-    margin-top: 30px;
-    text-shadow: 2px 2px 5px white;
+.mapa {
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 900px;
+    height: 500px;
+    /* margin-right: -4em; */
 }
 
-.conteudo-carreira i:hover {
-    color: white;
-    text-shadow: 2px 2px 20px white;
+.mapa h2 {
+    font-size: 1em;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .conteudo-competencias {
@@ -417,23 +421,6 @@ a {
 .cursos-magia i:hover {
     color: #1d976c;
 }
-
-
-/* .label {
-    border-radius: 5px;
-    color: whitesmoke;
-    font-size: 0.6em;
-    margin-right: 3px;
-    padding: 3px;
-}
-
-.label-organizacao {
-    background: #5BC0DE;
-}
-
-.label-dt-conclusao {
-    background: #5CB85C;
-} */
 
 .rodape-magia {
     font-family: 'Lato', sans-serif;

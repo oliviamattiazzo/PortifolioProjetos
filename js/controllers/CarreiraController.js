@@ -18,4 +18,7 @@ class CarreiraController {
     carrera() {
         this._carreiraViewEs.update(es);
     }
+
+    abrirLocal(nomeLocal) {
+    }
 }

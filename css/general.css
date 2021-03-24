@@ -243,15 +243,16 @@ a {
 .mapa {
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 900px 500px;
 
     width: 900px;
     height: 500px;
-    /* margin-right: -4em; */
 }
 
 .mapa h2 {
     font-size: 1em;
     font-family: 'Hammersmith One', sans-serif;
+    opacity: 1;
 }
 
 .conteudo-competencias {

@@ -247,12 +247,43 @@ a {
 
     width: 900px;
     height: 500px;
+
+    display: flex;
+    align-items: center;
 }
 
-.mapa h2 {
-    font-size: 1em;
-    font-family: 'Hammersmith One', sans-serif;
+.bg-opaco {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    width: 95%;
+    height: 95%;
+
+    color: black;
+}
+
+.bg-opaco h2 {
+    font-family: 'Zilla Slab Highlight', sans-serif;
+    font-size: 0.6em;
+    margin-top: 3px;
     opacity: 1;
+    text-align: center;
+}
+
+.bg-opaco h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.33em;
+    text-align: center;
+}
+
+.bg-opaco .fas {
+    margin-left: 20px;
+}
+
+.bg-opaco p {
+    font-size: 0.4em;
+    font-family: 'Lato', sans-serif;
+    line-height: 1em;
+    padding: 10px;
 }
 
 .conteudo-competencias {

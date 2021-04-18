@@ -13,7 +13,7 @@ class CarreiraView extends View {
                     <a onclick="carreiraController.abrirLocal('unipartner')" class="fa fa-chess-rook"></a>
                 </div>
                 <p class="legenda-menu">Ordem dos ícones: sentido horário</p>
-                <a href="" class="menu-button"><i class="far fa-compass"></i></a>
+                <a href="" class="menu-button" onclick="carreiraController.toogleMenuBussola(event)"><i class="far fa-compass"></i></a>
             </nav>
             <div class="mapa" style="background-image: url(img/cti.jpg);">
                 <div class="bg-opaco">

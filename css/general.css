@@ -297,7 +297,6 @@ a {
 }
 
 .spellbook {
-    background: white;
     color: black;
     height: 29.5em;
     padding: 0.5em;
@@ -314,6 +313,7 @@ a {
 }
 
 .lista-magias {
+    background-color: #fff;
     border: 2px solid black;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;

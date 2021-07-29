@@ -41,5 +41,6 @@ class CarreiraController {
     }
 
     abrirLocal(nomeLocal) {
+        
     }
 }

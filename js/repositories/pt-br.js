@@ -74,48 +74,18 @@ let ptbr = {
                     csharp: {
                         id: "csharp",
                         titulo: "C#",
-                        badge_uso_atualmente: true,
-                        badge_somente_estudei: false,
-                        badge_usei_anteriormente: false,
-                        texto: "Eu gosto do .NET/C# desde o meu primeiro contato com ele no meu curso técnico. Também foi a primeira linguagem que atuei profissionamente, e sigo com ela até os dias de hoje.",
-                        cursos: [{
-                            titulo_curso: "WCF: Distribua seus sistemas em .NET",
-                            link_certificado: "https://cursos.alura.com.br/certificate/8d281fef-04a4-4c41-9a74-154b0368ca94"
-                        }, {
-                            titulo_curso: "C#: Testes de unidade e TDD com xUnit",
-                            link_certificado: "https://cursos.alura.com.br/certificate/2c0cc9dd-73e5-45ce-99be-6299b6c9dfc2"
-                        }, {
-                            titulo_curso: "Entity Framework Core: Banco de dados de forma eficiente",
-                            link_certificado: "https://cursos.alura.com.br/certificate/384e86e1-7d86-47e0-93a7-22388fc79230"
-                        }, {
-                            titulo_curso: "C# Refatoração Parte 1: Praticando refatoração de código",
-                            link_certificado: "https://cursos.alura.com.br/certificate/ae73632a-ce26-408d-bd53-991f2f05b688"
-                        }, {
-                            titulo_curso: "SOLID com C#: Orientação a objetos com C#",
-                            link_certificado: "https://cursos.alura.com.br/certificate/7f684a71-0d9c-4452-a649-c2dbbfb4f8bd"
-                        }],
                         duracao: Constantes.numAnosCSharp + " anos",
                         class_css_nivel: "barra-progresso-magia90"
                     },
                     ling_c: {
                         id: "ling_c",
                         titulo: "C",
-                        badge_uso_atualmente: true,
-                        badge_somente_estudei: false,
-                        badge_usei_anteriormente: false,
-                        texto: "Eu tive uma grande base da linguagem C durante o curso técnico e a faculdade. Foi com ele e com o Pascal que aprendi a programar. Utilizo atualmente no meu trabalho, compilando-os através do OS2200.",
-                        cursos: [],
                         duracao: Constantes.numAnosLingC + " anos",
                         class_css_nivel: "barra-progresso-magia60"
                     },
                     java: {
                         id: "java",
                         titulo: "Java",
-                        badge_uso_atualmente: false,
-                        badge_somente_estudei: false,
-                        badge_usei_anteriormente: true,
-                        texto: "Também estudei majoritariamente sobre o Java durante o curso técnico e a faculdade. Utilizei-o profissionalmente somente no meu estágio na Trinity College, pois necessitava da ferramenta HTMLUnit para o desenvolvimento do projeto.",
-                        cursos: [],
                         duracao: Constantes.numAnosJava + " meses",
                         class_css_nivel: "barra-progresso-magia30"
                     },

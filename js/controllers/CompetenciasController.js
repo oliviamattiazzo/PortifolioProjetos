@@ -27,13 +27,4 @@ class CompetenciasController {
     fechar() {
         FecharSections.fechar(this._competenciasView, this._competenciasViewEn, this._competenciasViewEs);
     }
-
-    abrirModal(idTipoMagia, idConteudoModal) {
-        this._competenciasModalView = new CompetenciasModalView(document.querySelector(`#competenciasView${this._idiomaAtual.id == 'ptbr' ? '' : this._idiomaAtual.id}`));
-        this._competenciasModalView.updateModal(this._idiomaAtual.competencias.conteudo[idTipoMagia].itens[idConteudoModal], this._idiomaAtual.competencias.labels);
-    }
-
-    fecharModal() {
-        this._competenciasModalView.limpar();
-    }
 }

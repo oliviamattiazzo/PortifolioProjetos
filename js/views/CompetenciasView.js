@@ -8,19 +8,19 @@ class CompetenciasView extends View {
                                 <div class="sigla-titulo-magia">
                                     <h3>1</h3>
                                 </div>
-                                <h3>${idioma.competencias.conteudo.titulo}</h3>
+                                <h3>${idioma.competencias.conteudo.magias_backend.titulo}</h3>
                             </div>
                             <ul>
-                                <li>
-                                    <button id="btnAtivaModal" onclick="competenciasController.abrirModal('${idioma.competencias.conteudo.magias_backend.id}', '${idioma.competencias.conteudo.magias_backend.itens.csharp.id}')">
+                                <li class="nivel-progresso-magia">
                                     <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.csharp.titulo}
+                                    <div class="progresso-magia">
+                                        <div class="${idioma.competencias.conteudo.magias_backend.itens.csharp.class_css_nivel}"></div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <button id="btnAtivaModal" onclick="competenciasController.abrirModal('${idioma.competencias.conteudo.magias_backend.id}', '${idioma.competencias.conteudo.magias_backend.itens.ling_c.id}')">
                                     <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.ling_c.titulo}
                                 </li>
                                 <li>
-                                    <button id="btnAtivaModal" onclick="competenciasController.abrirModal('${idioma.competencias.conteudo.magias_backend.id}', '${idioma.competencias.conteudo.magias_backend.itens.java.id}')">
                                     <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.java.titulo}
                                 </li>
                                 <li><i class="fas fa-save"></i> PHP</li>

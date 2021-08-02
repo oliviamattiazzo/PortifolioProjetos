@@ -331,13 +331,8 @@ a {
 .lista-magias ul button {
     box-shadow: 0 0 0 0;
     border: 0 none;
-    cursor: pointer;
     font-size: 1em;
     outline: 0;
-}
-
-.lista-magias li i:hover {
-    color: #0f9b0f;
 }
 
 .titulo-categoria-magia {
@@ -354,7 +349,7 @@ a {
 }
 
 .sigla-titulo-magia {
-    background: linear-gradient(to right, #000000, #0f9b0f);
+    background-color: #348f50;
     border-right: 2px solid black;
     color: white;
     font-family: 'Lato', sans-serif;
@@ -406,7 +401,7 @@ a {
 }
 
 .badge:hover {
-    color: #1d976c;
+    color: #61045f;
 }
 
 .conteudo-magia {
@@ -455,7 +450,7 @@ a {
 }
 
 .cursos-magia i:hover {
-    color: #1d976c;
+    color: #61045f;
 }
 
 .rodape-magia {
@@ -485,7 +480,6 @@ a {
 }
 
 .nivel-progresso-magia {
-    margin-left: 40px;
     width: 43%;
 }
 

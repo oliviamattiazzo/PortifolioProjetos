@@ -86,22 +86,59 @@ let ptbr = {
                     java: {
                         id: "java",
                         titulo: "Java",
-                        duracao: Constantes.numAnosJava + " meses",
+                        duracao: Constantes.numMesesJava + " meses",
                         class_css_nivel: "barra-progresso-magia30"
                     },
-                    php: "PHP",
-                    sql: "SQL",
-                    vb_net: "VB.NET"
+                    php: {
+                        id: "php",
+                        titulo: "PHP",
+                        duracao: Constantes.numMesesPhp + " meses",
+                        class_css_nivel: "barra-progresso-magia30"
+                    },
+                    sql: {
+                        id: "sql",
+                        titulo: "SQL",
+                        duracao: Constantes.numAnosSQL + " anos",
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    vb_net: {
+                        id: "vb_net",
+                        titulo: "VB.NET",
+                        duracao: Constantes.numAnosVBNET + " anos",
+                        class_css_nivel: "barra-progresso-magia60"
+                    }
+                }
+            },
+            magias_bd: {
+                id: "magias_bd",
+                titulo: "BANCOS DE DADOS",
+                itens: {
+                    postgre: {
+                        id: "postgre",
+                        titulo: "PostgreSQL",
+                        duracao: Constantes.numAnosPostgre + " anos",
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    oracle: {
+                        id: "oracle",
+                        titulo: "Oracle",
+                        duracao: Constantes.numAnosOracle + " ano",
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    os2200: {
+                        id: "os2200",
+                        titulo: "OS2200",
+                        duracao: Constantes.numAnosOS2200 + " anos",
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    sql_server: {
+                        id: "sql_server",
+                        titulo: "SQL Server",
+                        duracao: Constantes.numAnosSQLServer + " anos",
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
                 }
             }
-        },
-        labels: {
-            tooltip_badge_uso_atualmente: "Uso atualmente no meu trabalho e já estudei sobre",
-            tooltip_badge_somente_estudei: "Já estudei sobre, porém nunca utilizei profissionalmente",
-            tooltip_badge_usei_anteriormente: "Já trabalhei e estudei sobre, mas não uso atualmente",
-            label_cursos: "CURSOS",
-            label_duracao: "DURAÇÃO",
-            label_nivel: "NÍVEL"
         }
     }
 }

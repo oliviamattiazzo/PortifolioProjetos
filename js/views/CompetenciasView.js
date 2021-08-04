@@ -11,21 +11,78 @@ class CompetenciasView extends View {
                                 <h3>${idioma.competencias.conteudo.magias_backend.titulo}</h3>
                             </div>
                             <ul>
-                                <li class="nivel-progresso-magia">
-                                    <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.csharp.titulo}
-                                    <div class="progresso-magia">
-                                        <div class="${idioma.competencias.conteudo.magias_backend.itens.csharp.class_css_nivel}"></div>
+                                <li>
+                                    <i class="fas fa-save" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.csharp.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.csharp.id})"></i> ${idioma.competencias.conteudo.magias_backend.itens.csharp.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_backend.itens.csharp.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_backend.itens.csharp.class_css_nivel}"> 
+                                                <p>${idioma.competencias.conteudo.magias_backend.itens.csharp.duracao} <p>
+                                            </div> 
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.ling_c.titulo}
+                                    <i class="fas fa-save" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.ling_c.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.ling_c.id})"></i> ${idioma.competencias.conteudo.magias_backend.itens.ling_c.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_backend.itens.ling_c.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_backend.itens.ling_c.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_backend.itens.ling_c.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <i class="fas fa-save"></i></button> ${idioma.competencias.conteudo.magias_backend.itens.java.titulo}
+                                    <i class="fas fa-save" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.java.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.java.id})"></i> ${idioma.competencias.conteudo.magias_backend.itens.java.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_backend.itens.java.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_backend.itens.java.class_css_nivel}">
+                                            </div>
+                                            <p>${idioma.competencias.conteudo.magias_backend.itens.java.duracao} <p>
+                                        </div>
+                                    </div>
                                 </li>
-                                <li><i class="fas fa-save"></i> PHP</li>
-                                <li><i class="fas fa-save"></i> SQL</li>
-                                <li><i class="fas fa-save"></i> VB.NET</li>
+                                <li>
+                                    <i class="fas fa-save" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.php.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.php.id})"></i> ${idioma.competencias.conteudo.magias_backend.itens.php.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_backend.itens.php.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_backend.itens.php.class_css_nivel}">
+                                            </div>
+                                            <p>${idioma.competencias.conteudo.magias_backend.itens.php.duracao} <p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-save" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.sql.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.sql.id})"></i> ${idioma.competencias.conteudo.magias_backend.itens.sql.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_backend.itens.sql.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_backend.itens.sql.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_backend.itens.sql.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-save" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.vb_net.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_backend.itens.vb_net.id})"></i> ${idioma.competencias.conteudo.magias_backend.itens.vb_net.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_backend.itens.vb_net.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_backend.itens.vb_net.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_backend.itens.vb_net.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="lista-magias">
@@ -36,10 +93,54 @@ class CompetenciasView extends View {
                                 <h3>BANCOS DE DADOS</h3>
                             </div>
                             <ul>
-                                <li><i class="fas fa-server"></i> Microsoft SQL Server</li>
-                                <li><i class="fas fa-server"></i> PostgreSQL</li>
-                                <li><i class="fas fa-server"></i> Oracle</li>
-                                <li><i class="fas fa-server"></i> OS2200</li>
+                                <li>
+                                    <i class="fas fa-server" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.postgre.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.postgre.id})"></i> ${idioma.competencias.conteudo.magias_bd.itens.postgre.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_bd.itens.postgre.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_bd.itens.postgre.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_bd.itens.postgre.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-server" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.oracle.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.oracle.id})"></i> ${idioma.competencias.conteudo.magias_bd.itens.oracle.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_bd.itens.oracle.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_bd.itens.oracle.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_bd.itens.oracle.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-server" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.os2200.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.os2200.id})"></i> ${idioma.competencias.conteudo.magias_bd.itens.os2200.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_bd.itens.os2200.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_bd.itens.os2200.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_bd.itens.os2200.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-server" 
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.sql_server.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.sql_server.id})"></i> ${idioma.competencias.conteudo.magias_bd.itens.sql_server.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_bd.itens.sql_server.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${idioma.competencias.conteudo.magias_bd.itens.sql_server.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_bd.itens.sql_server.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="lista-magias">

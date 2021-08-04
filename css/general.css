@@ -335,6 +335,20 @@ a {
     outline: 0;
 }
 
+.lista-magias li {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.lista-magias li i {
+    margin-right: 2px;
+}
+
+.lista-magias li i:hover {
+    color: #348f50;
+}
+
 .titulo-categoria-magia {
     border-bottom: 2px solid black;
     border-radius: 5px;
@@ -384,26 +398,6 @@ a {
     justify-content: space-between;
 }
 
-.badge {
-    border: 2px solid black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    box-shadow: 5px 10px 18px #888888;
-    font-size: 1.5em;
-    margin-top: -0.9em;
-    text-align: center;
-    width: 1.6em;
-}
-
-.badge i {
-    padding: 5px;
-    margin-top: 0.3em;
-}
-
-.badge:hover {
-    color: #61045f;
-}
-
 .conteudo-magia {
     display: flex;
     font-family: 'Lato', sans-serif;
@@ -414,49 +408,6 @@ a {
     margin-right: 10px;
     text-align: justify;
     width: 50%;
-}
-
-.cursos-magia {
-    border: 2px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 10px 18px #888888;
-    color: black;
-    font-size: 0.9em;
-    height: 13em;
-    margin-left: 30px;
-    width: 43%;
-}
-
-.cursos-magia ul {
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 10px;
-    height: 77%;
-    overflow-x: initial;
-    overflow-y: auto;
-}
-
-.cursos-magia li {
-    margin-bottom: 3px;
-}
-
-.cursos-magia a {
-    color: black;
-}
-
-.cursos-magia p {
-    font-weight: bold;
-    text-align: center;
-}
-
-.cursos-magia i:hover {
-    color: #61045f;
-}
-
-.rodape-magia {
-    font-family: 'Lato', sans-serif;
-    margin-top: 20px;
-    display: flex;
 }
 
 .info-magia {
@@ -481,6 +432,9 @@ a {
 
 .nivel-progresso-magia {
     width: 43%;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .nivel-progresso-magia .titulo-info-magia {

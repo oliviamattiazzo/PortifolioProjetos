@@ -1,8 +1,21 @@
 .progresso-magia {
     background-color: black;
-    height: 10px;
-    margin-top: 5px;
+    height: 15px;
     position: relative;
+}
+
+.progresso-magia p {
+    color: white;
+    font-size: 10px;
+    margin-right: 2px;
+    text-align: right;
+}
+
+.progresso-magia .barra-progresso-magia60 p,
+.progresso-magia .barra-progresso-magia70 p,
+.progresso-magia .barra-progresso-magia80 p,
+.progresso-magia .barra-progresso-magia90 p {
+    margin-top: 1px;
 }
 
 .progresso-magia .barra-progresso-magia30,
@@ -18,27 +31,27 @@
 }
 
 .barra-progresso-magia30 {
-    animation: progress-animation-30 6s 1;
+    animation: progress-animation-30 1s 1;
 }
 
 .barra-progresso-magia50 {
-    animation: progress-animation-50 6s 1;
+    animation: progress-animation-50 1s 1;
 }
 
 .barra-progresso-magia60 {
-    animation: progress-animation-60 6s 1;
+    animation: progress-animation-60 1s 1;
 }
 
 .barra-progresso-magia70 {
-    animation: progress-animation-70 6s 1;
+    animation: progress-animation-70 1s 1;
 }
 
 .barra-progresso-magia80 {
-    animation: progress-animation-80 6s 1;
+    animation: progress-animation-80 1s 1;
 }
 
 .barra-progresso-magia90 {
-    animation: progress-animation-90 6s 1;
+    animation: progress-animation-90 1s 1;
 }
 
 @keyframes progress-animation-30 {

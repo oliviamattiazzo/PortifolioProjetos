@@ -12,14 +12,42 @@ class Constantes {
     }
 
     static get numAnosCSharp() {
-        return 7;
+        return 8;
     }
 
     static get numAnosLingC() {
         return 2;
     }
 
-    static get numAnosJava() {
+    static get numMesesJava() {
         return 3;
+    }
+
+    static get numMesesPhp() {
+        return 3;
+    }
+
+    static get numAnosSQL() {
+        return 8;
+    }
+
+    static get numAnosVBNET() {
+        return 3;
+    }
+
+    static get numAnosSQLServer() {
+        return 3;
+    }
+
+    static get numAnosPostgre() {
+        return 2;
+    }
+
+    static get numAnosOracle() {
+        return 1;
+    }
+
+    static get numAnosOS2200() {
+        return 2;
     }
 }

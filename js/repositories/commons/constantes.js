@@ -33,11 +33,7 @@ class Constantes {
 
     static get numAnosVBNET() {
         return 3;
-    }
-
-    static get numAnosSQLServer() {
-        return 3;
-    }
+    }   
 
     static get numAnosPostgre() {
         return 2;
@@ -49,5 +45,9 @@ class Constantes {
 
     static get numAnosOS2200() {
         return 2;
+    }
+
+    static get numAnosSQLServer() {
+        return 3;
     }
 }

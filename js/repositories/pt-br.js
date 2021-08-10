@@ -131,12 +131,12 @@ let ptbr = {
                         duracao: Constantes.numAnosOS2200 + " anos",
                         class_css_nivel: "barra-progresso-magia60"
                     },
-                    sql_server: {
-                        id: "sql_server",
+                    sqlserver: {
+                        id: "sqlserver",
                         titulo: "SQL Server",
                         duracao: Constantes.numAnosSQLServer + " anos",
                         class_css_nivel: "barra-progresso-magia80"
-                    },
+                    }
                 }
             }
         }

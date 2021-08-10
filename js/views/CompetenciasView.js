@@ -130,17 +130,17 @@ class CompetenciasView extends View {
                                     </div>
                                 </li>
                                 <li>
-                                    <i class="fas fa-server" 
-                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.sql_server.id})"
-                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.sql_server.id})"></i> ${idioma.competencias.conteudo.magias_bd.itens.sql_server.titulo}
-                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_bd.itens.sql_server.id}" style="display: none;">
+                                    <i class="fas fa-server"
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.sqlserver.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idioma.competencias.conteudo.magias_bd.itens.sqlserver.id})"></i> ${idioma.competencias.conteudo.magias_bd.itens.sqlserver.titulo}
+                                    <div class="nivel-progresso-magia" id="${idioma.competencias.conteudo.magias_bd.itens.sqlserver.id}" style="display: none;">
                                         <div class="progresso-magia">
-                                            <div class="${idioma.competencias.conteudo.magias_bd.itens.sql_server.class_css_nivel}">
-                                                <p>${idioma.competencias.conteudo.magias_bd.itens.sql_server.duracao} <p>
+                                            <div class="${idioma.competencias.conteudo.magias_bd.itens.sqlserver.class_css_nivel}">
+                                                <p>${idioma.competencias.conteudo.magias_bd.itens.sqlserver.duracao} <p>
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </li> 
                             </ul>
                         </div>
                         <div class="lista-magias">

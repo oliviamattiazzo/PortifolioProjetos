@@ -70,74 +70,110 @@ let ptbr = {
             magias_backend: {
                 id: "magias_backend",
                 titulo: "BACKEND",
-                itens: {
-                    csharp: {
+                itens: [
+                    {
                         id: "csharp",
                         titulo: "C#",
                         duracao: Constantes.numAnosCSharp + " anos",
                         class_css_nivel: "barra-progresso-magia90"
                     },
-                    ling_c: {
+                    {
                         id: "ling_c",
                         titulo: "C",
                         duracao: Constantes.numAnosLingC + " anos",
                         class_css_nivel: "barra-progresso-magia60"
                     },
-                    java: {
+                    {
                         id: "java",
                         titulo: "Java",
                         duracao: Constantes.numMesesJava + " meses",
-                        class_css_nivel: "barra-progresso-magia30"
+                        class_css_nivel: "barra-progresso-magia50"
                     },
-                    php: {
+                    {
                         id: "php",
                         titulo: "PHP",
                         duracao: Constantes.numMesesPhp + " meses",
-                        class_css_nivel: "barra-progresso-magia30"
+                        class_css_nivel: "barra-progresso-magia50"
                     },
-                    sql: {
+                    {
                         id: "sql",
                         titulo: "SQL",
                         duracao: Constantes.numAnosSQL + " anos",
                         class_css_nivel: "barra-progresso-magia80"
                     },
-                    vb_net: {
+                    {
                         id: "vb_net",
                         titulo: "VB.NET",
                         duracao: Constantes.numAnosVBNET + " anos",
                         class_css_nivel: "barra-progresso-magia60"
                     }
-                }
+                ]
             },
             magias_bd: {
                 id: "magias_bd",
                 titulo: "BANCOS DE DADOS",
-                itens: {
-                    postgre: {
+                itens: [
+                    {
                         id: "postgre",
                         titulo: "PostgreSQL",
                         duracao: Constantes.numAnosPostgre + " anos",
                         class_css_nivel: "barra-progresso-magia80"
                     },
-                    oracle: {
+                    {
                         id: "oracle",
                         titulo: "Oracle",
                         duracao: Constantes.numAnosOracle + " ano",
                         class_css_nivel: "barra-progresso-magia60"
                     },
-                    os2200: {
+                    {
                         id: "os2200",
                         titulo: "OS2200",
                         duracao: Constantes.numAnosOS2200 + " anos",
                         class_css_nivel: "barra-progresso-magia60"
                     },
-                    sqlserver: {
+                    {
                         id: "sqlserver",
                         titulo: "SQL Server",
                         duracao: Constantes.numAnosSQLServer + " anos",
                         class_css_nivel: "barra-progresso-magia80"
                     }
-                }
+                ]
+            },
+            magias_frontend: {
+                id: "magias_frontend",
+                titulo: "FRONTEND",
+                itens: [
+                    {
+                        id: "aspnet",
+                        titulo: "ASP.NET",
+                        duracao: Constantes.numAnosASPNET + " anos",
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "css",
+                        titulo: "CSS",
+                        duracao: Constantes.numAnosCSS + " anos",
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "html",
+                        titulo: "HTML",
+                        duracao: Constantes.numAnosHTML + " anos",
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "javascript",
+                        titulo: "Javascript",
+                        duracao: Constantes.numAnosJavascript + " anos",
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "razor",
+                        titulo: "Razor",
+                        duracao: Constantes.numMesesRazor + " meses",
+                        class_css_nivel: "barra-progresso-magia60"
+                    }
+                ]
             }
         }
     }

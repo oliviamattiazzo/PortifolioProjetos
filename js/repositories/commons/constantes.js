@@ -50,4 +50,24 @@ class Constantes {
     static get numAnosSQLServer() {
         return 3;
     }
+
+    static get numAnosASPNET() {
+        return 5;
+    }
+
+    static get numAnosCSS() {
+        return 7;
+    }
+
+    static get numAnosHTML() {
+        return 7;
+    }
+
+    static get numAnosJavascript() {
+        return 4;
+    }
+
+    static get numMesesRazor() {
+        return 7;
+    }
 }

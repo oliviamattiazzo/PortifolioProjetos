@@ -80,13 +80,19 @@ class CompetenciasView extends View {
                                 <div class="sigla-titulo-magia">
                                     <h3>4</h3>
                                 </div>
-                                <h3>IDIOMAS</h3>
+                                <h3>${idioma.competencias.conteudo.magias_idiomas.titulo}</h3>
                             </div>
                             <ul>
-                                <li><i class="fas fa-language"></i> Alemão</li>
-                                <li><i class="fas fa-language"></i> Espanhol</li>
-                                <li><i class="fas fa-language"></i> Inglês</li>
-                                <li><i class="fas fa-language"></i> Português</li>
+                                ${idioma.competencias.conteudo.magias_idiomas.itens.map(idiomas => `
+                                <li>
+                                    <i class="fas fa-language"
+                                        onmouseover="competenciasController.toggleBarraProgresso(${idiomas.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${idiomas.id})"></i> ${idiomas.titulo}
+                                    <div class="label ${idiomas.cor}" id="${idiomas.id}" style="display: none;">
+                                        <p>${idiomas.duracao} <p>
+                                    </div>
+                                </li> 
+                                `).join('')}
                             </ul>
                         </div>
                         <div class="lista-magias">
@@ -94,11 +100,23 @@ class CompetenciasView extends View {
                                 <div class="sigla-titulo-magia">
                                     <h3>5</h3>
                                 </div>
-                                <h3>INFRAESTRUTURA</h3>
+                                <h3>${idioma.competencias.conteudo.magias_infra.titulo}</h3>
                             </div>
                             <ul>
-                                <li><i class="fas fa-cogs"></i> Docker</li>
-                                <li><i class="fas fa-cogs"></i> Git</li>
+                               ${idioma.competencias.conteudo.magias_infra.itens.map(infra => `
+                               <li>
+                                    <i class="fas fa-cogs"
+                                        onmouseover="competenciasController.toggleBarraProgresso(${infra.id})"
+                                        onmouseout="competenciasController.toggleBarraProgresso(${infra.id})"></i> ${infra.titulo}
+                                    <div class="nivel-progresso-magia" id="${infra.id}" style="display: none;">
+                                        <div class="progresso-magia">
+                                            <div class="${infra.class_css_nivel}">
+                                                <p>${infra.duracao} <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> 
+                               `).join('')}
                             </ul>
                         </div>
                         <div class="lista-magias">
@@ -106,7 +124,7 @@ class CompetenciasView extends View {
                                 <div class="sigla-titulo-magia">
                                     <h3>6</h3>
                                 </div>
-                                <h3>MARKETING</h3>
+                                <h3>${idioma.competencias.conteudo.magias_marketing.titulo}</h3>
                             </div>
                             <ul>
                                 <li><i class="fas fa-poll"></i> SEO</li>
@@ -122,7 +140,6 @@ class CompetenciasView extends View {
                             </div>
                             <ul>
                                 <li><i class="fas fa-hands-helping"></i> Comunicação</li>
-                                <li><i class="fas fa-hands-helping"></i> Liderança</li>
                                 <li><i class="fas fa-hands-helping"></i> Organização</li>
                                 <li><i class="fas fa-hands-helping"></i> Resiliência</li>
                                 <li><i class="fas fa-hands-helping"></i> Trabalho em equipe</li>

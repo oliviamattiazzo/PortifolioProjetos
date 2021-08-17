@@ -443,6 +443,29 @@ a {
     text-align: center;
 }
 
+.label {
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.label-laranja {
+    background-color: #FF7F50;
+}
+
+.label-amarelo {
+    background-color: goldenrod;
+}
+
+.label-azul {
+    background-color: dodgerblue;
+}
+
 .idioms {
     width: 100%;
     height: 10px;

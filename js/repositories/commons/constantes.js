@@ -70,4 +70,12 @@ class Constantes {
     static get numMesesRazor() {
         return 7;
     }
+
+    static get numAnosDocker() {
+        return 1;
+    }
+    
+    static get numAnosGit() {
+        return 6;
+    }
 }

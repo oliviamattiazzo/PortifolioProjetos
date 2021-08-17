@@ -133,7 +133,7 @@ let ptbr = {
                     },
                     {
                         id: "sqlserver",
-                        titulo: "SQL Server",
+                        titulo: "SQLServer",
                         duracao: Constantes.numAnosSQLServer + " anos",
                         class_css_nivel: "barra-progresso-magia80"
                     }
@@ -172,6 +172,54 @@ let ptbr = {
                         titulo: "Razor",
                         duracao: Constantes.numMesesRazor + " meses",
                         class_css_nivel: "barra-progresso-magia60"
+                    }
+                ]
+            },
+            magias_idiomas: {
+                id: "magias_idiomas",
+                titulo: "IDIOMAS",
+                itens: [
+                    {
+                        id: "alemao",
+                        titulo: "Alemão",
+                        duracao: "Noções",
+                        cor: "label-laranja"
+                    },
+                    {
+                        id: "espanhol",
+                        titulo: "Espanhol",
+                        duracao: "Intermediário",
+                        cor: "label-amarelo"
+                    },
+                    {
+                        id: "ingles",
+                        titulo: "Inglês",
+                        duracao: "Fluente",
+                        cor: "label-azul"
+                    },
+                    {
+                        id: "portugues",
+                        titulo: "Português",
+                        duracao: "Nativo",
+                        cor: "label-azul"
+                    }
+                ]
+            },
+            magias_infra: {
+                id: "magias_infra",
+                titulo: "INFRAESTRUTURA",
+                itens: [
+                    {
+                        id: "docker",
+                        titulo: "Docker",
+                        duracao: Constantes.numAnosDocker + " ano",
+                        class_css_nivel: "barra-progresso-magia50"
+                    },
+                    {
+                        id: "git",
+                        titulo: "Git",
+                        duracao: Constantes.numAnosGit + " anos",
+                        class_css_nivel: "barra-progresso-magia70"
                     }
                 ]
             }

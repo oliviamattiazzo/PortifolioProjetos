@@ -39,7 +39,7 @@ class CompetenciasView extends View {
                                 <li>
                                     <i class="fas fa-server"
                                         onmouseover="competenciasController.toggleBarraProgresso(${bd.id})"
-                                        onmouseout="competenciasController.toggleBarraProgresso(${bd.id})"></i> <p>${bd.titulo}</p>
+                                        onmouseout="competenciasController.toggleBarraProgresso(${bd.id})"></i> ${bd.titulo}
                                     <div class="nivel-progresso-magia" id="${bd.id}" style="display: none;">
                                         <div class="progresso-magia">
                                             <div class="${bd.class_css_nivel}">

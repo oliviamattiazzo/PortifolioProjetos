@@ -55,18 +55,6 @@ class Constantes {
         return 5;
     }
 
-    static get numAnosCSS() {
-        return 7;
-    }
-
-    static get numAnosHTML() {
-        return 7;
-    }
-
-    static get numAnosJavascript() {
-        return 4;
-    }
-
     static get numMesesRazor() {
         return 7;
     }
@@ -74,8 +62,24 @@ class Constantes {
     static get numAnosDocker() {
         return 1;
     }
-    
-    static get numAnosGit() {
-        return 6;
+
+    static get numAnosNunit() {
+        return 3;
+    }
+
+    static get numAnosSelenium() {
+        return 4;
+    }
+
+    static get numAnosTesteCarga() {
+        return 2;
+    }
+
+    static get numAnosxUnit() {
+        return 3;
+    }
+
+    static get numAnosVisualStudio() {
+        return 8;
     }
 }

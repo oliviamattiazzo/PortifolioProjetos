@@ -1,3 +1,7 @@
+ano = " year";
+anos = " years";
+meses = " months";
+
 let en = {
     id: "en",
     sobre: {
@@ -50,17 +54,238 @@ let en = {
     carreira: {
         titulo: "Career",
         conteudo: {
-            empresa_unipartner: {
-                titulo: " .NET Consultant",
-                periodo: " 01/2019 - present",
-                stack: " HTML, Javascript, C# (.NET 4.5 and 4.6), WCF, VB.NET, SQL (OS2200), Selenium and Visual Studio",
-                descricao: "Implementação de novas funcionalidades e melhorias no Sistema Integrado de Pensões (SIP) da Segurança Social de Portugal, além da documentação das mesmas. Construção de serviços WCF de integração entre sistemas. Inclusão e desenvolvimento de testes automatizados, tais como: testes unitários com MSTest nos serviços de integração, testes de regressão e de carga no SIP através do framework Selenium e do componente de carga do Visual Studio 2017."
+        }
+    },
+    competencias: {
+        titulo: "Skills",
+        conteudo: {
+            magias_backend: {
+                id: "magias_backend",
+                titulo: "BACKEND",
+                itens: [
+                    {
+                        id: "csharp",
+                        titulo: "C#",
+                        duracao: Constantes.numAnosCSharp + anos,
+                        class_css_nivel: "barra-progresso-magia90"
+                    },
+                    {
+                        id: "ling_c",
+                        titulo: "C",
+                        duracao: Constantes.numAnosLingC + anos,
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    {
+                        id: "java",
+                        titulo: "Java",
+                        duracao: Constantes.numMesesJava + meses,
+                        class_css_nivel: "barra-progresso-magia50"
+                    },
+                    {
+                        id: "php",
+                        titulo: "PHP",
+                        duracao: Constantes.numMesesPhp + meses,
+                        class_css_nivel: "barra-progresso-magia50"
+                    },
+                    {
+                        id: "sql",
+                        titulo: "SQL",
+                        duracao: Constantes.numAnosSQL + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "vb_net",
+                        titulo: "VB.NET",
+                        duracao: Constantes.numAnosVBNET + anos,
+                        class_css_nivel: "barra-progresso-magia60"
+                    }
+                ]
             },
-            empresa_db1: {
-                titulo: " Desenvolvedora Web .NET",
-                periodo: " 07/2018 - 01/2019",
-                stack: " HTML, Razor, Javascript, jQuery, C# (.NET 4.7.1), PL/SQL (Oracle), Visual Studio e SpecFlow",
-                descricao: "Implementação de novas funcionalidades para o novo sistema de gerenciamento do BRDE, banco de desenvolvimento governamental. Construção e manutenção de layouts com a sintaxe Razor e Javascript. Desenvolvimento e manutenção de testes automatizados de comportamento com a framework SpecFlow. Neste projeto, também houve a oportunidade de trabalhar de forma muito próxima com os analistas de requisitos do cliente, demandando boas habilidades de comunicação e relacionamento interpessoal."
+            magias_bd: {
+                id: "magias_bd",
+                titulo: "DATABASES",
+                itens: [
+                    {
+                        id: "postgre",
+                        titulo: "PostgreSQL",
+                        duracao: Constantes.numAnosPostgre + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "oracle",
+                        titulo: "Oracle",
+                        duracao: Constantes.numAnosOracle + " ano",
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    {
+                        id: "os2200",
+                        titulo: "OS2200",
+                        duracao: Constantes.numAnosOS2200 + anos,
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    {
+                        id: "sqlserver",
+                        titulo: "SQLServer",
+                        duracao: Constantes.numAnosSQLServer + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    }
+                ]
+            },
+            magias_frontend: {
+                id: "magias_frontend",
+                titulo: "FRONTEND",
+                itens: [
+                    {
+                        id: "aspnet",
+                        titulo: "ASP.NET",
+                        duracao: Constantes.numAnosASPNET + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "css",
+                        titulo: "CSS",
+                        duracao: Calculos.calculaAnosExperienciaCSS() + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "html",
+                        titulo: "HTML",
+                        duracao: Calculos.calculaAnosExperienciaHTML() + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "javascript",
+                        titulo: "Javascript",
+                        duracao: Calculos.calculaAnosExperienciaJavascript() + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "razor",
+                        titulo: "Razor",
+                        duracao: Constantes.numMesesRazor + meses,
+                        class_css_nivel: "barra-progresso-magia60"
+                    }
+                ]
+            },
+            magias_idiomas: {
+                id: "magias_idiomas",
+                titulo: "IDIOMS",
+                itens: [
+                    {
+                        id: "alemao",
+                        titulo: "German",
+                        duracao: "Notions",
+                        cor: "label-laranja"
+                    },
+                    {
+                        id: "espanhol",
+                        titulo: "Spanish",
+                        duracao: "Intermediate",
+                        cor: "label-amarelo"
+                    },
+                    {
+                        id: "ingles",
+                        titulo: "English",
+                        duracao: "Fluent",
+                        cor: "label-azul"
+                    },
+                    {
+                        id: "portugues",
+                        titulo: "Portuguese",
+                        duracao: "Native",
+                        cor: "label-azul"
+                    }
+                ]
+            },
+            magias_infra: {
+                id: "magias_infra",
+                titulo: "INFRASTRUCTURE",
+                itens: [
+                    {
+                        id: "docker",
+                        titulo: "Docker",
+                        duracao: Constantes.numAnosDocker + ano,
+                        class_css_nivel: "barra-progresso-magia50"
+                    },
+                    {
+                        id: "git",
+                        titulo: "Git",
+                        duracao: Calculos.calculaAnosExperienciaGit() + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    }
+                ]
+            },
+            magias_marketing: {
+                id: "magias_marketing",
+                titulo: "MARKETING",
+                itens: [
+                    {
+                        id: "seo",
+                        titulo: "SEO",
+                        duracao: "Studies",
+                        cor: "label-azul"
+                    },
+                    {
+                        id: "twitter",
+                        titulo: "Twitter",
+                        duracao: "Studies",
+                        cor: "label-azul"
+                    }
+                ]
+            },
+            magias_testes: {
+                id: "magias_testes",
+                titulo: "TESTS",
+                itens: [
+                    {
+                        id: "nunit",
+                        titulo: "NUnit",
+                        duracao: Constantes.numAnosNunit + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "selenium",
+                        titulo: "Selenium",
+                        duracao: Constantes.numAnosSelenium + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "carga",
+                        titulo: "Load",
+                        duracao: Constantes.numAnosSelenium + anos,
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    {
+                        id: "xunit",
+                        titulo: "xUnit",
+                        duracao: Constantes.numAnosxUnit + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    }
+                ]
+            },
+            magias_outros: {
+                id: "magias_outros",
+                titulo: "OTHERS",
+                itens: [
+                    {
+                        id: "visual_studio",
+                        titulo: "VisualStudio",
+                        duracao: Constantes.numAnosVisualStudio + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "vscode",
+                        titulo: "VScode",
+                        duracao: Calculos.calculaAnosExperienciaVScode() + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "xml",
+                        titulo: "XML",
+                        duracao: Calculos.calculaAnosExperienciaXML() + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    }
+                ]
             }
         }
     }

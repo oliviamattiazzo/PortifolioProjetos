@@ -1,3 +1,7 @@
+let ano = " ano";
+let anos = " anos";
+let meses = " meses";
+
 let ptbr = {
     id: "ptbr",
     sobre: {
@@ -49,19 +53,7 @@ let ptbr = {
     },
     carreira: {
         titulo: "Carreira",
-        conteudo: {
-            empresa_unipartner: {
-                titulo: " Consultora .NET",
-                periodo: " 01/2019 - presente",
-                stack: " HTML, Javascript, C# (.NET 4.5 e 4.6), WCF, VB.NET, SQL (OS2200), Selenium e Visual Studio",
-                descricao: "Implementação de novas funcionalidades e melhorias no Sistema Integrado de Pensões (SIP) da Segurança Social de Portugal, além da documentação das mesmas. Construção de serviços WCF de integração entre sistemas. Inclusão e desenvolvimento de testes automatizados, tais como: testes unitários com MSTest nos serviços de integração, testes de regressão e de carga no SIP através do framework Selenium e do componente de carga do Visual Studio 2017."
-            },
-            empresa_db1: {
-                titulo: " Desenvolvedora Web .NET",
-                periodo: " 07/2018 - 01/2019",
-                stack: " HTML, Razor, Javascript, jQuery, C# (.NET 4.7.1), PL/SQL (Oracle), Visual Studio e SpecFlow",
-                descricao: "Implementação de novas funcionalidades para o novo sistema de gerenciamento do BRDE, banco de desenvolvimento governamental. Construção e manutenção de layouts com a sintaxe Razor e Javascript. Desenvolvimento e manutenção de testes automatizados de comportamento com a framework SpecFlow. Neste projeto, também houve a oportunidade de trabalhar de forma muito próxima com os analistas de requisitos do cliente, demandando boas habilidades de comunicação e relacionamento interpessoal."
-            }
+        conteudo: { 
         }
     },
     competencias: {
@@ -74,37 +66,37 @@ let ptbr = {
                     {
                         id: "csharp",
                         titulo: "C#",
-                        duracao: Constantes.numAnosCSharp + " anos",
+                        duracao: Constantes.numAnosCSharp + anos,
                         class_css_nivel: "barra-progresso-magia90"
                     },
                     {
                         id: "ling_c",
                         titulo: "C",
-                        duracao: Constantes.numAnosLingC + " anos",
+                        duracao: Constantes.numAnosLingC + anos,
                         class_css_nivel: "barra-progresso-magia60"
                     },
                     {
                         id: "java",
                         titulo: "Java",
-                        duracao: Constantes.numMesesJava + " meses",
+                        duracao: Constantes.numMesesJava + meses,
                         class_css_nivel: "barra-progresso-magia50"
                     },
                     {
                         id: "php",
                         titulo: "PHP",
-                        duracao: Constantes.numMesesPhp + " meses",
+                        duracao: Constantes.numMesesPhp + meses,
                         class_css_nivel: "barra-progresso-magia50"
                     },
                     {
                         id: "sql",
                         titulo: "SQL",
-                        duracao: Constantes.numAnosSQL + " anos",
+                        duracao: Constantes.numAnosSQL + anos,
                         class_css_nivel: "barra-progresso-magia80"
                     },
                     {
                         id: "vb_net",
                         titulo: "VB.NET",
-                        duracao: Constantes.numAnosVBNET + " anos",
+                        duracao: Constantes.numAnosVBNET + anos,
                         class_css_nivel: "barra-progresso-magia60"
                     }
                 ]
@@ -116,7 +108,7 @@ let ptbr = {
                     {
                         id: "postgre",
                         titulo: "PostgreSQL",
-                        duracao: Constantes.numAnosPostgre + " anos",
+                        duracao: Constantes.numAnosPostgre + anos,
                         class_css_nivel: "barra-progresso-magia80"
                     },
                     {
@@ -128,13 +120,13 @@ let ptbr = {
                     {
                         id: "os2200",
                         titulo: "OS2200",
-                        duracao: Constantes.numAnosOS2200 + " anos",
+                        duracao: Constantes.numAnosOS2200 + anos,
                         class_css_nivel: "barra-progresso-magia60"
                     },
                     {
                         id: "sqlserver",
                         titulo: "SQLServer",
-                        duracao: Constantes.numAnosSQLServer + " anos",
+                        duracao: Constantes.numAnosSQLServer + anos,
                         class_css_nivel: "barra-progresso-magia80"
                     }
                 ]
@@ -146,31 +138,31 @@ let ptbr = {
                     {
                         id: "aspnet",
                         titulo: "ASP.NET",
-                        duracao: Constantes.numAnosASPNET + " anos",
+                        duracao: Constantes.numAnosASPNET + anos,
                         class_css_nivel: "barra-progresso-magia70"
                     },
                     {
                         id: "css",
                         titulo: "CSS",
-                        duracao: Constantes.numAnosCSS + " anos",
+                        duracao: Calculos.calculaAnosExperienciaCSS() + anos,
                         class_css_nivel: "barra-progresso-magia80"
                     },
                     {
                         id: "html",
                         titulo: "HTML",
-                        duracao: Constantes.numAnosHTML + " anos",
+                        duracao: Calculos.calculaAnosExperienciaHTML() + anos,
                         class_css_nivel: "barra-progresso-magia80"
                     },
                     {
                         id: "javascript",
                         titulo: "Javascript",
-                        duracao: Constantes.numAnosJavascript + " anos",
+                        duracao: Calculos.calculaAnosExperienciaJavascript() + anos,
                         class_css_nivel: "barra-progresso-magia70"
                     },
                     {
                         id: "razor",
                         titulo: "Razor",
-                        duracao: Constantes.numMesesRazor + " meses",
+                        duracao: Constantes.numMesesRazor + meses,
                         class_css_nivel: "barra-progresso-magia60"
                     }
                 ]
@@ -212,14 +204,86 @@ let ptbr = {
                     {
                         id: "docker",
                         titulo: "Docker",
-                        duracao: Constantes.numAnosDocker + " ano",
+                        duracao: Constantes.numAnosDocker + ano,
                         class_css_nivel: "barra-progresso-magia50"
                     },
                     {
                         id: "git",
                         titulo: "Git",
-                        duracao: Constantes.numAnosGit + " anos",
+                        duracao: Calculos.calculaAnosExperienciaGit() + anos,
                         class_css_nivel: "barra-progresso-magia70"
+                    }
+                ]
+            },
+            magias_marketing: {
+                id: "magias_marketing",
+                titulo: "MARKETING",
+                itens: [
+                    {
+                        id: "seo",
+                        titulo: "SEO",
+                        duracao: "Estudos",
+                        cor: "label-azul"
+                    },
+                    {
+                        id: "twitter",
+                        titulo: "Twitter",
+                        duracao: "Estudos",
+                        cor: "label-azul"
+                    }
+                ]
+            },
+            magias_testes: {
+                id: "magias_testes",
+                titulo: "TESTES",
+                itens: [
+                    {
+                        id: "nunit",
+                        titulo: "NUnit",
+                        duracao: Constantes.numAnosNunit + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "selenium",
+                        titulo: "Selenium",
+                        duracao: Constantes.numAnosSelenium + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "carga",
+                        titulo: "Carga",
+                        duracao: Constantes.numAnosSelenium + anos,
+                        class_css_nivel: "barra-progresso-magia60"
+                    },
+                    {
+                        id: "xunit",
+                        titulo: "xUnit",
+                        duracao: Constantes.numAnosxUnit + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    }
+                ]
+            },
+            magias_outros: {
+                id: "magias_outros",
+                titulo: "OUTROS",
+                itens: [
+                    {
+                        id: "visual_studio",
+                        titulo: "VisualStudio",
+                        duracao: Constantes.numAnosVisualStudio + anos,
+                        class_css_nivel: "barra-progresso-magia80"
+                    },
+                    {
+                        id: "vscode",
+                        titulo: "VScode",
+                        duracao: Calculos.calculaAnosExperienciaVScode() + anos,
+                        class_css_nivel: "barra-progresso-magia70"
+                    },
+                    {
+                        id: "xml",
+                        titulo: "XML",
+                        duracao: Calculos.calculaAnosExperienciaXML() + anos,
+                        class_css_nivel: "barra-progresso-magia80"
                     }
                 ]
             }
